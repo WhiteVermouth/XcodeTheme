@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.6.5'
+}
+
+group 'com.vermouthx'
+version '1.0.0-SNAPSHOT'
+
+intellij {
+    version '2020.3'
+}
+buildSearchableOptions {
+    enabled = false
+}
+patchPluginXml {
+    sinceBuild "203.3645.34"
+    changeNotes """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
