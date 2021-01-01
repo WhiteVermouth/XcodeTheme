@@ -11,5 +11,5 @@ Xcode Theme</h1>
 
 ## Licence
 
-Apache License
+[Apache-2.0 Licence](./LICENSE)
 
