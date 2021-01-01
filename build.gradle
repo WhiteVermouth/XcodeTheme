@@ -11,17 +11,18 @@ repositories {
 }
 
 compileJava {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 compileTestJava {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 intellij {
     version 'LATEST-EAP-SNAPSHOT'
+    type 'IC'
 }
 
 buildSearchableOptions {
@@ -31,6 +32,6 @@ buildSearchableOptions {
 patchPluginXml {
     sinceBuild "203.3645.34"
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+        Xcode Light & Dark theme for JetBrains
+    """
 }
