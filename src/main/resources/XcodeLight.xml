@@ -2,6 +2,7 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="e8f2ff" />
     <option name="DOC_COMMENT_LINK" value="e0eff" />
+    <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="SELECTION_BACKGROUND" value="a4cdff" />
     <option name="SELECTION_FOREGROUND" value="" />
   </colors>
@@ -15,7 +16,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="3900a0" />
+        <option name="FOREGROUND" value="b4f79" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -53,8 +54,13 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="326d74" />
+        <option name="FOREGROUND" value="f68a0" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -77,12 +83,17 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="815f03" />
+        <option name="FOREGROUND" value="3900a0" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="1c00cf" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="f68a0" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -103,6 +114,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />

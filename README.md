@@ -3,9 +3,13 @@
 
 ## Color Palette
 
-The Light Theme color palette:
+**Xcode Light** color palette:
 
-![Color Palette](./assets/color-palette.png)
+![Xcode Light Color Palette](./assets/light-color-palette.png)
+
+**Xcode Dark** color palette:
+
+![Xcode Dark Color Palette](./assets/dark-color-palette.png)
 
 ## Installation
 
