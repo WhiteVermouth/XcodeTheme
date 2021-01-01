@@ -3,6 +3,10 @@
 
 ## Color Palette
 
+The Light Theme color palette:
+
+![Color Palette](./assets/color-palette.png)
+
 ## Installation
 
 ## Licence
