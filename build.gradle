@@ -31,7 +31,7 @@ buildSearchableOptions {
 
 patchPluginXml {
     sinceBuild "203.3645.34"
-    changeNotes """
+    description """
         Xcode Light & Dark theme for JetBrains
     """
 }

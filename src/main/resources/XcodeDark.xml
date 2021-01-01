@@ -114,5 +114,30 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5482ff" />
+        <option name="EFFECT_COLOR" value="5482ff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5482ff" />
+        <option name="EFFECT_COLOR" value="5482ff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5482ff" />
+        <option name="EFFECT_COLOR" value="5482ff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
   </attributes>
 </scheme>

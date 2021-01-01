@@ -4,8 +4,23 @@
   "author": "Zihan Ma",
   "editorScheme": "/XcodeDark.xml",
   "ui": {
-    "EditorPane": {
-
+    "*": {
+      "background": "#2a2a2a",
+      "borderColor": "#1e1e1e"
+    },
+    "Borders": {
+      "color": "#1e1e1e",
+      "ContrastBorderColor": "#1e1e1e"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#383839",
+        "inactiveBackground": "#2a2a2a"
+      },
+      "Button": {
+        "selectedBackground": "#383839",
+        "hoverBackground": "#383839"
+      }
     }
   }
 }
