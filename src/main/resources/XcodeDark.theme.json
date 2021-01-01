@@ -12,6 +12,14 @@
       "color": "#1e1e1e",
       "ContrastBorderColor": "#1e1e1e"
     },
+    "VersionControl": {
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "#292a2f",
+          "hoveredBackground": "#383839"
+        }
+      }
+    },
     "ToolWindow": {
       "Header": {
         "background": "#383839",
