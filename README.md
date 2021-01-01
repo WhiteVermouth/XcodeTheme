@@ -5,6 +5,8 @@ Xcode Theme</h1>
 
 ## Installation
 
+You can install this theme from JetBrains Marketplaces. Just open **Plugins** window and search `Xcode Theme`, then click **Install**.
+
 ## Color Palette
 
 ![Color Palette](./assets/color-palette.png)
