@@ -6,12 +6,28 @@ plugins {
 group 'com.vermouthx'
 version '1.0.0-SNAPSHOT'
 
-intellij {
-    version '2020.3'
+repositories {
+    mavenCentral()
 }
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+compileTestJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+intellij {
+    version 'LATEST-EAP-SNAPSHOT'
+}
+
 buildSearchableOptions {
     enabled = false
 }
+
 patchPluginXml {
     sinceBuild "203.3645.34"
     changeNotes """
