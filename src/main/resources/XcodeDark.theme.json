@@ -29,6 +29,13 @@
         "selectedBackground": "#383839",
         "hoverBackground": "#383839"
       }
+    },
+    "WelcomeScreen": {
+      "Projects": {
+        "actions": {
+          "background": "#383839"
+        }
+      }
     }
   }
 }

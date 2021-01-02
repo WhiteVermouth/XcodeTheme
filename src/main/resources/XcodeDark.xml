@@ -31,9 +31,26 @@
         <option name="FOREGROUND" value="6c7986" />
       </value>
     </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="92a1b1" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="92a1b1" />
+      </value>
+    </option>
+    <option name="DEFAULT_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -82,6 +99,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -96,7 +114,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="d0a8ff" />
+        <option name="FOREGROUND" value="bf8555" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -175,6 +193,8 @@
     <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -193,7 +213,26 @@
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="GO_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="a167e6" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_COMMENT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="92a1b1" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GO_LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>

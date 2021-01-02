@@ -14,7 +14,7 @@ public class XcTStartupActivity implements StartupActivity, DumbAware {
     public void runActivity(@NotNull Project project) {
         String currentVersion = XcTMeta.currentVersion();
         XcTMetaSetting setting = ServiceManager.getService(XcTMetaSetting.class);
-        if (currentVersion != null && !currentVersion.equals(setting.getVersion())) {
+        if (!currentVersion.equals(setting.getVersion())) {
             setting.setVersion(currentVersion);
         }
     }
