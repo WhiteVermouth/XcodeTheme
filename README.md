@@ -3,6 +3,7 @@
 Xcode Theme</h1>
 <p align="center">Xcode Light & Dark themes for JetBrains</p>
 <p align="center"><img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" /></p>
+
 ## Installation
 
 You can install this theme from JetBrains Marketplaces. Just open **Plugins** window and search `Xcode Theme`, then click **Install**.
