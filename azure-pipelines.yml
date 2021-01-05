@@ -4,20 +4,41 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- master
-
+  branches:
+    include:
+      - master
+  tags:
+    include:
+      - v*
 pool:
   vmImage: 'ubuntu-latest'
-
 steps:
-- task: Gradle@2
-  inputs:
-    workingDirectory: ''
-    gradleWrapperFile: 'gradlew'
-    gradleOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.11'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
-    tasks: 'buildPlugin'
+  - task: Gradle@2
+    inputs:
+      workingDirectory: ''
+      gradleWrapperFile: 'gradlew'
+      gradleOptions: '-Xmx3072m'
+      javaHomeOption: 'JDKVersion'
+      jdkVersionOption: '1.11'
+      jdkArchitectureOption: 'x64'
+      publishJUnitResults: true
+      testResultsFiles: '**/TEST-*.xml'
+      tasks: 'buildPlugin'
+  - task: GitHubRelease@0
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+    inputs:
+      gitHubConnection: 'GitHub Release'
+      repositoryName: '$(Build.Repository.Name)'
+      action: 'create'
+      assets: 'build/distributions/*.zip'
+      assetUploadMode: 'delete'
+      tagSource: 'auto'
+      target: '$(Build.SourceVersion)'
+    displayName: 'Publish to GitHub Release'
+  - task: Gradle@2
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+    inputs:
+      jdkVersionOption: '1.11'
+      options: '-Djetbrains.token=$(jetbrains.token)'
+      tasks: 'publishPlugin'
+    displayName: 'Publish to JetBrains Plugin Repository'

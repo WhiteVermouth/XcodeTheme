@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '0.0.1'
+version '0.0.2'
 
 repositories {
     mavenCentral()
@@ -31,6 +31,11 @@ buildSearchableOptions {
 
 patchPluginXml {
     sinceBuild "203.3645.34"
+    changeNotes """
+        <ul>
+            <li>Enhanced <i>Xcode Light</i> color scheme</li>
+        </ul>
+    """
     pluginDescription """
         Xcode Light & Dark themes for JetBrains IDEs.
         <br/><br/>
