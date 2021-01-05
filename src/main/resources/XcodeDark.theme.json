@@ -6,8 +6,9 @@
   "colors": {
     "primary": "#2a2a2a",
     "secondary": "#3b3a3a",
-    "activeSelection": "#1468bf",
-    "inactiveSelection": "#515b70"
+    "activeSelection": "#1767bc",
+    "inactiveSelection": "#515b70",
+    "border": "#1d1d1d"
   },
   "ui": {
     "*": {
@@ -15,11 +16,16 @@
       "background": "primary",
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
-      "underlineColor": "activeSelection"
+      "underlineColor": "activeSelection",
+      "borderColor": "border"
+    },
+    "ActionButton": {
+      "hoverBackground": "border",
+      "pressedBackground": "border"
     },
     "Borders": {
-      "color": "#0f0f0f",
-      "ContrastBorderColor": "#0f0f0f"
+      "color": "border",
+      "ContrastBorderColor": "border"
     },
     "Button": {
       "foreground": "#ffffff",
@@ -27,17 +33,32 @@
         "foreground": "#ffffff"
       }
     },
+    "Editor": {
+      "shortcutForeground": "#226fbf",
+      "background": "secondary"
+    },
     "EditorTabs": {
-      "underlinedTabBackground": "secondary",
+      "background": "secondary",
       "underlineHeight": 2
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "inactiveSelection"
+      }
     },
     "SidePanel": {
       "background": "secondary"
     },
+    "StatusBar": {
+      "hoverBackground": "secondary"
+    },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "#131313"
+      },
       "Header": {
         "background": "secondary",
-        "inactiveBackground": "primary"
+        "inactiveBackground": "secondary"
       }
     },
     "VersionControl": {
@@ -49,6 +70,9 @@
       }
     },
     "WelcomeScreen": {
+      "SidePanel": {
+        "background": "secondary"
+      },
       "Projects": {
         "actions": {
           "background": "inactiveSelection"
