@@ -40,14 +40,18 @@
         "inactiveBackground": "primary"
       }
     },
-    "Tree": {
-
-    },
     "VersionControl": {
       "Log": {
         "Commit": {
           "currentBranchBackground": "secondary",
           "hoveredBackground": "inactiveSelection"
+        }
+      }
+    },
+    "WelcomeScreen": {
+      "Projects": {
+        "actions": {
+          "background": "inactiveSelection"
         }
       }
     }
