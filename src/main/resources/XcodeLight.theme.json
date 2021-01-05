@@ -18,6 +18,7 @@
   },
   "ui": {
     "*": {
+      "arc": 8,
       "foreground": "foreground",
       "acceleratorForeground": "foreground",
       "caretForeground": "foreground",
@@ -67,7 +68,10 @@
       "infoForeground": "infoInputForeground"
     },
     "DefaultTabs.background": "panel",
-    "EditorTabs.underlinedTabBackground": "#ffffff",
+    "EditorTabs": {
+      "underlineHeight": 2,
+      "underlinedTabBackground": "#ffffff"
+    },
     "Editor": {
       "background": "#cccccc",
       "foreground": "#737373",

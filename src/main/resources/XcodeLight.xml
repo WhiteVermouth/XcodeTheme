@@ -209,6 +209,7 @@
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="KOTLIN_CONSTRUCTOR">
       <value>
@@ -223,6 +224,37 @@
     <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
     <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.CLASS_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.FUNC_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="f68a0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="RUBY_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="4a5560" />
@@ -234,6 +266,11 @@
     <option name="RUBY_METHOD_NAME">
       <value>
         <option name="FOREGROUND" value="f68a0" />
+      </value>
+    </option>
+    <option name="RUBY_PARAMETER_ID">
+      <value>
+        <option name="FOREGROUND" value="c37522" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
@@ -252,10 +289,5 @@
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="RUBY_PARAMETER_ID">
-      <value>
-        <option name="FOREGROUND" value="c37522" />
-      </value>
-    </option>
   </attributes>
 </scheme>
