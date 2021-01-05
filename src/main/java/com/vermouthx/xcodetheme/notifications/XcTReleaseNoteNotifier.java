@@ -14,7 +14,9 @@ public class XcTReleaseNoteNotifier {
 
     private final static String RELEASE_NOTE = "What's New?<br>" +
             "<ul>" +
-            "<li>Enhanced <i>Xcode Light</i> color scheme</li>" +
+            "<li>Redesigned <em>Xcode Dark</em> UI</li>" +
+            "<li>Enhanced <em>Xcode Dark</em> color scheme</li>" +
+            "<li>Enhanced <em>Xcode Light</em> color scheme</li>" +
             "</ul>" +
             "Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.<br>";
 
