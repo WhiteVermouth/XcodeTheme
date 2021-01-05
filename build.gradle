@@ -49,3 +49,7 @@ patchPluginXml {
         <img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" border="0" width="700" alt="Main window screenshot" />
     """
 }
+
+publishPlugin {
+    token System.getProperty("jetbrains.token")
+}
