@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.0.4
+
+- Enhanced `Xcode Dark` UI
+- Enhanced `Xcode Dark` Color Scheme
+
 ### 0.0.3
 
 - Redesigned `Xcode Dark` UI
