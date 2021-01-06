@@ -33,6 +33,35 @@
     </option>
     <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="78acef" />
+        <option name="EFFECT_COLOR" value="78acef" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="41a1c0" />
+      </value>
+    </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="Class">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="d0a8ff" />
@@ -111,7 +140,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="9ef1dd" />
+        <option name="FOREGROUND" value="67b7a4" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -202,7 +231,9 @@
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="9ef1dd" />
+      </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
@@ -241,10 +272,49 @@
         <option name="FOREGROUND" value="5dd8ff" />
       </value>
     </option>
+    <option name="GQL_ID">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="Groovy method declaration">
+      <value>
+        <option name="FOREGROUND" value="41a1c0" />
+      </value>
+    </option>
+    <option name="HAML_CLASS">
+      <value>
+        <option name="FOREGROUND" value="5dd8ff" />
+      </value>
+    </option>
+    <option name="HAML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6c7986" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HAML_ID">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="HAML_LINE_CONTINUATION">
+      <value />
+    </option>
+    <option name="HAML_TAG">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
@@ -268,6 +338,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="KOTLIN_CONSTRUCTOR">
@@ -275,9 +346,32 @@
         <option name="FOREGROUND" value="d0a8ff" />
       </value>
     </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
@@ -294,15 +388,64 @@
       </value>
     </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="MAGIC_MEMBER_ACCESS">
+      <value>
+        <option name="FOREGROUND" value="a167e6" />
+      </value>
+    </option>
+    <option name="MARKDOWN_IMAGE">
+      <value />
+    </option>
+    <option name="PHP_ALIAS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
     <option name="PHP_CLASS">
       <value>
         <option name="FOREGROUND" value="d0a8ff" />
       </value>
     </option>
     <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="PHP_PARAMETER">
+    <option name="PHP_DOC_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
+    <option name="PHP_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+      </value>
+    </option>
+    <option name="PHP_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="PHP_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="PHP_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
+    </option>
+    <option name="PHP_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="PHP_SCRIPTING_BACKGROUND">
+      <value />
+    </option>
+    <option name="PHP_SEMICOLON">
+      <value />
+    </option>
+    <option name="PHP_THIS_VAR">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
       </value>
     </option>
     <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -323,7 +466,11 @@
       </value>
     </option>
     <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="a167e6" />
@@ -343,7 +490,13 @@
         <option name="FOREGROUND" value="d0a8ff" />
       </value>
     </option>
-    <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
+    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="RUBY_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="RUBY_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="92a1b1" />
@@ -352,6 +505,7 @@
     </option>
     <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="RUBY_NUMBER" baseAttributes="DEFAULT_NUMBER" />
     <option name="RUBY_PARAMDEF_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
@@ -411,11 +565,105 @@
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="TS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+      </value>
+    </option>
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="5dd8ff" />
+      </value>
+    </option>
+    <option name="TS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a167e6" />
+      </value>
+    </option>
+    <option name="VELOCITY_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="VELOCITY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="VELOCITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="41a1c0" />
+      </value>
+    </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="XPATH.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="41a1c0" />
+      </value>
+    </option>
+    <option name="XPATH.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_NAME">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="67b7a4" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="YAML_ANCHOR">
+      <value>
+        <option name="FOREGROUND" value="5482ff" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
   </attributes>
 </scheme>
