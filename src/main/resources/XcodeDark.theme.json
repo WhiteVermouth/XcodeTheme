@@ -34,10 +34,15 @@
       "foreground": "#ffffff",
       "startBackground": "secondary",
       "endBackground": "secondary",
+      "focusedBorderColor": "#5069c3",
       "default": {
         "foreground": "#ffffff",
         "startBackground": "activeSelection",
-        "endBackground": "activeSelection"
+        "endBackground": "activeSelection",
+        "startBorderColor": "activeSelection",
+        "endBorderColor": "activeSelection",
+        "focusColor": "#5069c3",
+        "focusedBorderColor": "#5069c3"
       }
     },
     "CompletionPopup": {
@@ -61,6 +66,10 @@
       "hoverForeground": "#61c9cb",
       "visitedForeground": "activeSelection",
       "pressedForeground": "#61c9cb"
+    },
+    "Plugins": {
+      "hoverBackground": "#3c414c",
+      "lightSelectionBackground": "#3c414c"
     },
     "SearchEverywhere": {
       "Tab": {
@@ -98,6 +107,7 @@
         "background": "secondary"
       },
       "Projects": {
+        "background": "inactiveSelection",
         "actions": {
           "background": "inactiveSelection"
         }
