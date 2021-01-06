@@ -4,11 +4,11 @@
   "author": "Zihan Ma",
   "editorScheme": "/XcodeDark.xml",
   "colors": {
-    "primary": "#2a2a2a",
-    "secondary": "#3b3a3a",
+    "primary": "#212327",
+    "secondary": "#343333",
     "activeSelection": "#2f55b1",
     "inactiveSelection": "#515b70",
-    "borderColor": "#1f1f1f"
+    "borderColor": "#121212"
   },
   "ui": {
     "*": {
@@ -17,7 +17,8 @@
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
       "underlineColor": "activeSelection",
-      "borderColor": "borderColor"
+      "borderColor": "borderColor",
+      "separatorColor": "borderColor"
     },
     "ActionButton": {
       "hoverBorderColor": "borderColor",
@@ -31,6 +32,8 @@
     },
     "Button": {
       "foreground": "#ffffff",
+      "startBackground": "secondary",
+      "endBackground": "secondary",
       "default": {
         "foreground": "#ffffff",
         "startBackground": "activeSelection",
@@ -80,7 +83,7 @@
       }
     },
     "Tree": {
-      "background": "secondary"
+      "background": "#27282d"
     },
     "VersionControl": {
       "Log": {
