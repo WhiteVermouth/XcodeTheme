@@ -181,7 +181,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="d12f1b" />
+        <option name="FOREGROUND" value="c41a16" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -407,6 +407,11 @@
         <option name="ERROR_STRIPE_COLOR" value="54aae3" />
       </value>
     </option>
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
+      </value>
+    </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="3900a0" />
@@ -415,11 +420,6 @@
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="3900a0" />
-      </value>
-    </option>
-    <option name="TS.MODULE_NAME">
-      <value>
-        <option name="FOREGROUND" value="b4f79" />
       </value>
     </option>
   </attributes>
