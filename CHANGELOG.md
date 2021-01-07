@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.0.0
+
+- Enhanced a bunch of UI details
+
 ### 0.0.5
 
 - Enhanced `Xcode Light` Color Scheme

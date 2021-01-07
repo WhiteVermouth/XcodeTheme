@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '0.0.5'
+version '1.0.0'
 
 repositories {
     mavenCentral()
@@ -33,7 +33,7 @@ patchPluginXml {
     sinceBuild "203.3645.34"
     changeNotes """
         <ul>
-            <li>Enhanced <em>Xcode Light</em> Color Scheme</li>
+            <li>Enhanced a bunch of UI details</li>
         </ul>
     """
     pluginDescription """
