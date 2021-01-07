@@ -13,10 +13,22 @@
         <option name="FOREGROUND" value="3900a0" />
       </value>
     </option>
+    <option name="CSS.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CSS.PSEUDO">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="e0eff" />
-        <option name="EFFECT_COLOR" value="e0eff" />
+        <option name="FOREGROUND" value="11a1b3" />
+        <option name="EFFECT_COLOR" value="11a1b3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -180,6 +192,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
+        <option name="FOREGROUND" value="aa0d91" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -189,6 +202,28 @@
         <option name="BACKGROUND" value="e9e9e9" />
         <option name="EFFECT_COLOR" value="e0eff" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="GO_COMMENT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="4a5560" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
+      </value>
+    </option>
+    <option name="GQL_ID">
+      <value>
+        <option name="FOREGROUND" value="326d74" />
       </value>
     </option>
     <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
@@ -210,10 +245,32 @@
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
+      </value>
+    </option>
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="KOTLIN_CLASS">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
     <option name="KOTLIN_CONSTRUCTOR">
       <value>
         <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -221,8 +278,30 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value />
+    </option>
+    <option name="MAGIC_MEMBER_ACCESS">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
+    <option name="PHP_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="643820" />
+      </value>
+    </option>
+    <option name="PHP_NAMED_ARGUMENT">
+      <value />
+    </option>
     <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PHP_THIS_VAR">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
     <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PY.ANNOTATION">
       <value>
@@ -255,6 +334,18 @@
       </value>
     </option>
     <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
+    <option name="RUBY_CONSTANT_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="RUBY_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="643820" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="RUBY_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="4a5560" />
@@ -275,12 +366,40 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+    <option name="Scala Immutable Collection">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="Scala Mutable Collection">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="Scala Object">
       <value>
         <option name="FOREGROUND" value="3900a0" />
       </value>
     </option>
+    <option name="Scala Predefined types">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="StandardF Java Collection">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
     <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7f0000" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="4a5560" />
@@ -288,6 +407,20 @@
         <option name="ERROR_STRIPE_COLOR" value="54aae3" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="3900a0" />
+      </value>
+    </option>
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b4f79" />
+      </value>
+    </option>
   </attributes>
 </scheme>
