@@ -429,5 +429,10 @@
         <option name="FOREGROUND" value="3900a0" />
       </value>
     </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="fa9795" />
+      </value>
+    </option>
   </attributes>
 </scheme>
