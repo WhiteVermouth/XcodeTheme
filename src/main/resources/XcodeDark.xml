@@ -134,7 +134,8 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="5482ff" />
+        <option name="FOREGROUND" value="fc6a5d" />
+        <option name="EFFECT_COLOR" value="fc6a5d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -225,6 +226,12 @@
         <option name="FOREGROUND" value="fc6a5d" />
       </value>
     </option>
+    <option name="DEFAULT_TAG">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="fd8f3f" />
@@ -309,12 +316,6 @@
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="fd8f3f" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
@@ -702,5 +703,6 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
   </attributes>
 </scheme>

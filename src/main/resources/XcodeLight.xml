@@ -32,7 +32,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="6c36a9" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="5d6c79" />
@@ -94,7 +98,8 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="e0eff" />
+        <option name="FOREGROUND" value="c41a16" />
+        <option name="EFFECT_COLOR" value="c41a16" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -185,7 +190,9 @@
       </value>
     </option>
     <option name="DEFAULT_TAG">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="9b2393" />
+      </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value />
