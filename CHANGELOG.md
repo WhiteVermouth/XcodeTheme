@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.0.1
+
+- Enhanced color schemes
+- Enhanced Dark UI details
+
 ### 1.0.0
 
 - Enhanced a bunch of UI details
