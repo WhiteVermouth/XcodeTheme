@@ -84,7 +84,7 @@
     "Notification": {
       "ToolWindow": {
         "informativeBorderColor": "#42b827",
-        "informativeBackground": "#50734d",
+        "informativeBackground": "#717a71",
         "informativeForeground": "#ffffff"
       }
     },
