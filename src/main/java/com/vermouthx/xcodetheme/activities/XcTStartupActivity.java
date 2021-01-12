@@ -5,7 +5,7 @@ import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.startup.StartupActivity;
 import com.vermouthx.xcodetheme.XcTMeta;
-import com.vermouthx.xcodetheme.notifications.XcTReleaseNoteNotifier;
+import com.vermouthx.xcodetheme.notifications.XcTNotifier;
 import com.vermouthx.xcodetheme.settings.XcTMetaSetting;
 import org.jetbrains.annotations.NotNull;
 
@@ -15,9 +15,14 @@ public class XcTStartupActivity implements StartupActivity, DumbAware {
     public void runActivity(@NotNull Project project) {
         String currentVersion = XcTMeta.currentVersion();
         XcTMetaSetting setting = ServiceManager.getService(XcTMetaSetting.class);
+        if (setting.getVersion() == null || setting.getVersion().isEmpty()) {
+            setting.setVersion(currentVersion);
+            XcTNotifier.notifyWelcome(project);
+            return;
+        }
         if (!currentVersion.equals(setting.getVersion())) {
             setting.setVersion(currentVersion);
-            XcTReleaseNoteNotifier.notifyReleaseNote(project);
+            XcTNotifier.notifyReleaseNote(project);
         }
     }
 }
