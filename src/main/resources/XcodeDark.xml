@@ -316,6 +316,7 @@
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
@@ -342,11 +343,6 @@
         <option name="FOREGROUND" value="5482ff" />
         <option name="EFFECT_COLOR" value="5482ff" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="BACKGROUND" value="515b70" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -514,6 +510,55 @@
       </value>
     </option>
     <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
+    <option name="REGEXP.BRACES">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
+    <option name="REGEXP.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
+    <option name="REGEXP.CHAR_CLASS">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.ESC_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.META">
+      <value>
+        <option name="FOREGROUND" value="a167e6" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.NAME">
+      <value>
+        <option name="FOREGROUND" value="5dd8ff" />
+      </value>
+    </option>
+    <option name="REGEXP.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="d0a8ff" />
+      </value>
+    </option>
+    <option name="REGEXP.QUANTIFIER">
+      <value>
+        <option name="FOREGROUND" value="9ef1dd" />
+      </value>
+    </option>
+    <option name="REGEXP.QUOTE_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="RHTML_COMMENT_ID" baseAttributes="HTML_COMMENT" />
     <option name="RUBY_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="RUBY_CONSTANT_DECLARATION">
@@ -703,6 +748,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
   </attributes>
 </scheme>
