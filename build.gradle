@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.0.1'
+version '1.1.0'
 
 repositories {
     mavenCentral()
@@ -34,7 +34,7 @@ patchPluginXml {
     changeNotes """
         <ul>
             <li>Enhanced color schemes</li>
-            <li>Enhanced Dark UI details</li>
+            <li>Adopt new plugin logo</li>
         </ul>
     """
     pluginDescription """

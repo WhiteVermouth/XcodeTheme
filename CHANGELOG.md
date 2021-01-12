@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.1.0
+
+- Enhanced color schemes
+- Adopt new plugin logo
+
 ### 1.0.1
 
 - Enhanced color schemes
