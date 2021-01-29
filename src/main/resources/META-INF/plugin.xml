@@ -3,7 +3,7 @@
     <name>Xcode Theme</name>
     <vendor email="vermouth7dante@gmail.com" url="https://vermouthx.com">Zihan Ma</vendor>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="203.3645.34"/>
+    <idea-version since-build="201"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.vermouthx.xcodetheme.settings.XcTMetaSetting"/>
         <postStartupActivity implementation="com.vermouthx.xcodetheme.activities.XcTStartupActivity"/>

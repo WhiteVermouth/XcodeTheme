@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.1.1'
+version '1.1.2'
 
 repositories {
     mavenCentral()
@@ -30,12 +30,11 @@ buildSearchableOptions {
 }
 
 patchPluginXml {
-    sinceBuild "203.3645.34"
+    sinceBuild "201"
     untilBuild("211.*")
     changeNotes """
         <ul>
-            <li>Enhanced UI and color scheme</li>
-            <li>Support JetBrains 2021</li>
+            <li>Add backward compatibility to 2020.1</li>
         </ul>
     """
     pluginDescription """
