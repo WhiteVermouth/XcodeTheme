@@ -14,13 +14,15 @@ import javax.swing.*;
 public class XcTNotifier {
 
     @Language("HTML")
-    private final static String RELEASE_NOTE = "What's New?<br>" +
+    private final static String RELEASE_NOTE = "<div>" +
+            "<h3>What's New</h3>" +
             "<ul>" +
-            "<li>Enhanced color schemes</li>" +
-            "<li>Adopt new plugin logo</li>" +
+            "<li>Enhanced UI and color scheme</li>" +
+            "<li>Support JetBrains 2021</li>" +
             "</ul>" +
             "<p>Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.</p>" +
-            "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>";
+            "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>" +
+            "</div>";
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "Thank you for choosing Xcode Theme. " +
@@ -46,7 +48,7 @@ public class XcTNotifier {
         NotificationGroupManager.getInstance()
                 .getNotificationGroup(NOTIFICATION_GROUP_ID)
                 .createNotification(
-                        "Xcode Theme v" + XcTManager.currentVersion() + "installed successfully",
+                        "Xcode Theme installed successfully",
                         WELCOME_MESSAGE,
                         NotificationType.INFORMATION,
                         NotificationListener.URL_OPENING_LISTENER

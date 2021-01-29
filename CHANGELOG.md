@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Enhanced UI and color scheme
+- Support JetBrains 2021
+
 ### 1.1.0
 
 - Enhanced color schemes

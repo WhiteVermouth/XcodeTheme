@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.1.0'
+version '1.1.1'
 
 repositories {
     mavenCentral()
@@ -31,10 +31,11 @@ buildSearchableOptions {
 
 patchPluginXml {
     sinceBuild "203.3645.34"
+    untilBuild("211.*")
     changeNotes """
         <ul>
-            <li>Enhanced color schemes</li>
-            <li>Adopt new plugin logo</li>
+            <li>Enhanced UI and color scheme</li>
+            <li>Support JetBrains 2021</li>
         </ul>
     """
     pluginDescription """
@@ -47,7 +48,7 @@ patchPluginXml {
             <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
         </ul>
         <br/>
-        <img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" border="0" width="700" alt="Main window screenshot" />
+        <img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" width="700" alt="Main window screenshot" />
     """
 }
 
