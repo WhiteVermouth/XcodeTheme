@@ -5,9 +5,9 @@ import com.intellij.openapi.extensions.PluginId;
 
 import java.util.Objects;
 
-public class XcTMeta {
+public class XcTManager {
 
-    private XcTMeta() {
+    private XcTManager() {
     }
 
     public final static String XC_PLUGIN_ID = "com.vermouthx.xcode-theme";
