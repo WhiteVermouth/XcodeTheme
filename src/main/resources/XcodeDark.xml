@@ -2,8 +2,10 @@
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="23252b" />
+    <option name="DOCUMENTATION_COLOR" value="212327" />
     <option name="DOC_COMMENT_LINK" value="5482ff" />
     <option name="GUTTER_BACKGROUND" value="292a2f" />
+    <option name="INFORMATION_HINT" value="212327" />
     <option name="SELECTION_BACKGROUND" value="515b70" />
   </colors>
   <attributes>
@@ -235,6 +237,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="fd8f3f" />
+        <option name="BACKGROUND" value="212327" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -343,6 +346,11 @@
         <option name="FOREGROUND" value="5482ff" />
         <option name="EFFECT_COLOR" value="5482ff" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value>
+        <option name="BACKGROUND" value="212327" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -747,9 +755,6 @@
       <value>
         <option name="EFFECT_TYPE" value="5" />
       </value>
-    </option>
-    <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value />
     </option>
   </attributes>
 </scheme>
