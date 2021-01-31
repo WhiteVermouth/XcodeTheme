@@ -1,10 +1,10 @@
 # Changelog
 
-## 1.1.2
+### 1.1.2
 
 - Add backward compatibility to 2020.1
 
-## 1.1.1
+### 1.1.1
 
 - Enhanced UI and color scheme
 - Support JetBrains 2021
