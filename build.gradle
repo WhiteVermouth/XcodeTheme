@@ -31,6 +31,11 @@ buildSearchableOptions {
     enabled = false
 }
 
+patchPluginXml {
+    sinceBuild("192.0")
+    untilBuild("211.*")
+}
+
 runPluginVerifier {
     ideVersions = ["192.7142.36", "193.7288.26", "201.8743.12", "202.8194.7", "203.7148.57"]
     failureLevel = EnumSet.of(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN)

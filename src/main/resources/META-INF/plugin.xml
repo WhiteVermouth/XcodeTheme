@@ -27,7 +27,7 @@
         ]]>
     </change-notes>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="192" until-build="211.*"/>
+    <idea-version since-build="192.0"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.vermouthx.xcodetheme.settings.XcTMetaSetting"/>
         <postStartupActivity implementation="com.vermouthx.xcodetheme.activities.XcTStartupActivity"/>
