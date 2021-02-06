@@ -2,8 +2,32 @@
     <id>com.vermouthx.xcode-theme</id>
     <name>Xcode Theme</name>
     <vendor email="vermouth7dante@gmail.com" url="https://vermouthx.com">Zihan Ma</vendor>
+    <description>
+        <![CDATA[
+            <div>
+                <p>Xcode Light & Dark themes for JetBrains IDEs.</p>
+                <br>
+                <p>To install:</p>
+                <ul>
+                    <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
+                    <li>Restart IDE</li>
+                    <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
+                </ul>
+                <p><img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" width="700" alt="Main window screenshot" /></p>
+            </div>
+        ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+            <div>
+                <ul>
+                    <li>Support JetBrains 2019 series (2019.2 at least)</li>
+                </ul>
+            </div>
+        ]]>
+    </change-notes>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="201"/>
+    <idea-version since-build="192" until-build="211.*"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.vermouthx.xcodetheme.settings.XcTMetaSetting"/>
         <postStartupActivity implementation="com.vermouthx.xcodetheme.activities.XcTStartupActivity"/>

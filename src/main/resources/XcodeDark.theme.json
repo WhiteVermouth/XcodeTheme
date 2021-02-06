@@ -19,7 +19,7 @@
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "borderColor"
+      "separatorColor": "#474545"
     },
     "ActionButton": {
       "hoverBorderColor": "borderColor",

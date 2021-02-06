@@ -1,9 +1,6 @@
 package com.vermouthx.xcodetheme.notifications;
 
-import com.intellij.notification.NotificationDisplayType;
-import com.intellij.notification.NotificationGroup;
-import com.intellij.notification.NotificationListener;
-import com.intellij.notification.NotificationType;
+import com.intellij.notification.*;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.IconLoader;
 import com.vermouthx.xcodetheme.XcTManager;
@@ -36,25 +33,25 @@ public class XcTNotifier {
             new NotificationGroup("Xcode Theme", NotificationDisplayType.STICKY_BALLOON, true);
 
     public static void notifyReleaseNote(@Nullable Project project) {
-        NOTIFICATION_GROUP.createNotification(
+        Notification notification = NOTIFICATION_GROUP.createNotification(
                 "Xcode Theme updated to v" + XcTManager.currentVersion(),
                 RELEASE_NOTE,
                 NotificationType.INFORMATION,
                 NotificationListener.URL_OPENING_LISTENER
-        )
-                .setIcon(icon)
-                .notify(project);
+        );
+        notification.setIcon(icon);
+        notification.notify(project);
     }
 
     public static void notifyWelcome(@Nullable Project project) {
-        NOTIFICATION_GROUP.createNotification(
+        Notification notification = NOTIFICATION_GROUP.createNotification(
                 "Xcode Theme installed successfully",
                 WELCOME_MESSAGE,
                 NotificationType.INFORMATION,
                 NotificationListener.URL_OPENING_LISTENER
-        )
-                .setIcon(icon)
-                .notify(project);
+        );
+        notification.setIcon(icon);
+        notification.notify(project);
     }
 
 }

@@ -1,3 +1,5 @@
+import org.jetbrains.intellij.tasks.RunPluginVerifierTask
+
 plugins {
     id 'java'
     id 'org.jetbrains.intellij' version '0.6.5'
@@ -11,17 +13,17 @@ repositories {
 }
 
 compileJava {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
 }
 
 compileTestJava {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
 }
 
 intellij {
-    version 'LATEST-EAP-SNAPSHOT'
+    version '2019.2'
     type 'IC'
 }
 
@@ -29,26 +31,9 @@ buildSearchableOptions {
     enabled = false
 }
 
-patchPluginXml {
-    sinceBuild "201"
-    untilBuild("211.*")
-    changeNotes """
-        <ul>
-            <li>Add backward compatibility to 2020.1</li>
-        </ul>
-    """
-    pluginDescription """
-        Xcode Light & Dark themes for JetBrains IDEs.
-        <br/><br/>
-        To install:
-        <ul>
-            <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
-            <li>Restart IDE</li>
-            <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
-        </ul>
-        <br/>
-        <img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" width="700" alt="Main window screenshot" />
-    """
+runPluginVerifier {
+    ideVersions = ["192.7142.36", "193.7288.26", "201.8743.12", "202.8194.7", "203.7148.57"]
+    failureLevel = EnumSet.of(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN)
 }
 
 publishPlugin {

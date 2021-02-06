@@ -1,12 +1,17 @@
 <scheme name="Xcode Dark" version="142" parent_scheme="Darcula">
   <colors>
+    <option name="ADDED_LINES_COLOR" value="417041" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="23252b" />
     <option name="DOCUMENTATION_COLOR" value="212327" />
     <option name="DOC_COMMENT_LINK" value="5482ff" />
     <option name="GUTTER_BACKGROUND" value="292a2f" />
     <option name="INFORMATION_HINT" value="212327" />
+    <option name="LINE_NUMBERS_COLOR" value="82888f" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="869ef3" />
+    <option name="MODIFIED_LINES_COLOR" value="405d72" />
     <option name="SELECTION_BACKGROUND" value="515b70" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="64583c" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -180,7 +185,9 @@
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
     </option>
     <option name="DEFAULT_METADATA">
       <value>
@@ -243,6 +250,11 @@
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="9ef1dd" />
+      </value>
+    </option>
+    <option name="DUPLICATE_FROM_SERVER">
+      <value>
+        <option name="BACKGROUND" value="4f4a3c" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -330,7 +342,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="515b70" />
+        <option name="BACKGROUND" value="383a60" />
+        <option name="EFFECT_COLOR" value="383a60" />
         <option name="ERROR_STRIPE_COLOR" value="36b13" />
       </value>
     </option>
@@ -695,9 +708,16 @@
         <option name="FOREGROUND" value="41a1c0" />
       </value>
     </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="565246" />
+        <option name="ERROR_STRIPE_COLOR" value="be9117" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="515b70" />
+        <option name="BACKGROUND" value="383a60" />
         <option name="ERROR_STRIPE_COLOR" value="b56277" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -753,6 +773,12 @@
     <option name="YAML_TEXT">
       <value>
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
