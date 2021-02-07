@@ -365,6 +365,12 @@
         <option name="BACKGROUND" value="212327" />
       </value>
     </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fc5fa3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
@@ -439,7 +445,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffef28" />
-        <option name="BACKGROUND" value="515b70" />
+        <option name="BACKGROUND" value="383a60" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -773,12 +779,6 @@
     <option name="YAML_TEXT">
       <value>
         <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fc5fa3" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
