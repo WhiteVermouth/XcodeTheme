@@ -16,8 +16,7 @@ public class XcTNotifier {
             "<h3>What's New</h3>" +
             "<ul>" +
             "<li>Enhanced UI and color scheme</li>" +
-            "<li>Support JetBrains 2021</li>" +
-            "<li>Add backward compatibility to 2020.1</li>" +
+            "<li>Support JetBrains 2019 series (2019.2 at least)</li>" +
             "</ul>" +
             "<p>Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.</p>" +
             "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>" +
