@@ -2,9 +2,9 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="e8f2ff" />
     <option name="DOC_COMMENT_LINK" value="e0eff" />
-    <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="SELECTION_BACKGROUND" value="a4cdff" />
     <option name="SELECTION_FOREGROUND" value="" />
+    <option name="GUTTER_BACKGROUND" value="ffffff" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -296,6 +296,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="bdc2ee" />
+      </value>
+    </option>
     <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
     <option name="PHP_HEREDOC_CONTENT">
       <value>
@@ -462,7 +467,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="fa9795" />
+        <option name="FOREGROUND" value="fa9795" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
