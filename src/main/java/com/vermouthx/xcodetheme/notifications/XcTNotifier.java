@@ -16,7 +16,7 @@ public class XcTNotifier {
             "<h3>What's New</h3>" +
             "<ul>" +
             "<li>Enhanced UI and color scheme</li>" +
-            "<li>Support JetBrains 2019 series (2019.2 at least)</li>" +
+            "<li>Removed JetBrains 2019 series support</li>" +
             "</ul>" +
             "<p>Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.</p>" +
             "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>" +
@@ -24,7 +24,7 @@ public class XcTNotifier {
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "Thank you for choosing Xcode Theme. " +
-            "Xcode Theme is fully open-source. If this extension is helpful to you, consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.";
+            "Xcode Theme is fully open-source. If this theme is helpful to you, consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.";
 
     private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotifier.class);
 

@@ -6,24 +6,24 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.2.0'
+version '1.2.1'
 
 repositories {
     mavenCentral()
 }
 
 compileJava {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "11"
+    targetCompatibility = "11"
 }
 
 compileTestJava {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "11"
+    targetCompatibility = "11"
 }
 
 intellij {
-    version '2019.2'
+    version '2020.1'
     type 'IC'
 }
 
@@ -32,12 +32,28 @@ buildSearchableOptions {
 }
 
 patchPluginXml {
-    sinceBuild("192.0")
+    sinceBuild("201.6668.113")
     untilBuild("211.*")
+
+    pluginDescription("""
+            <div>
+                <p>Xcode Light & Dark themes for JetBrains IDEs.</p>
+                <br>
+                <p><img src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png" width="700" alt="Main window screenshot" /></p>
+            </div>
+    """)
+    changeNotes("""
+            <div>
+                <ul>
+                    <li>Enhanced UI and color scheme</li>
+                    <li>Removed JetBrains 2019 series support</li>
+                </ul>
+            </div>
+    """)
 }
 
 runPluginVerifier {
-    ideVersions = ["192.7142.36", "193.7288.26", "201.8743.12", "202.8194.7", "203.7148.57"]
+    ideVersions = ["201.8743.12", "202.8194.7", "203.7148.57"]
     failureLevel = EnumSet.of(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN)
 }
 
