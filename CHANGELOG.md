@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.3.0
+
+- Enhanced UI and color scheme
+- Removed JetBrains 2019 series support
+
 ### 1.2.0
 
 - Enhanced UI details
