@@ -130,7 +130,7 @@
         "selectedBackground": "#131313"
       },
       "Header": {
-        "background": "secondary",
+        "background": "#3c3b3b",
         "inactiveBackground": "secondary"
       }
     },
