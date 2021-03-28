@@ -45,8 +45,7 @@ patchPluginXml {
     changeNotes("""
             <div>
                 <ul>
-                    <li>Enhanced UI and color scheme</li>
-                    <li>Removed JetBrains 2019 series support</li>
+                    <li>Fixed Android Studio compatibility</li>
                 </ul>
             </div>
     """)
