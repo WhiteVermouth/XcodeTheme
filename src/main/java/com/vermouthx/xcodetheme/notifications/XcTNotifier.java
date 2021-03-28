@@ -15,8 +15,7 @@ public class XcTNotifier {
     private static final String RELEASE_NOTE = "<div>" +
             "<h3>What's New</h3>" +
             "<ul>" +
-            "<li>Enhanced UI and color scheme</li>" +
-            "<li>Removed JetBrains 2019 series support</li>" +
+            "<li>Fixed Android Studio compatibility</li>" +
             "</ul>" +
             "<p>Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.</p>" +
             "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>" +
