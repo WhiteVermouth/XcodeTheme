@@ -29,7 +29,7 @@ steps:
       gradleWrapperFile: 'gradlew'
       gradleOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
-      jdkVersionOption: '11'
+      jdkVersionOption: '1.8'
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
       testResultsFiles: '**/TEST-*.xml'
@@ -41,7 +41,7 @@ steps:
       gradleWrapperFile: 'gradlew'
       gradleOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
-      jdkVersionOption: '11'
+      jdkVersionOption: '1.8'
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
       testResultsFiles: '**/TEST-*.xml'
@@ -61,7 +61,7 @@ steps:
   - task: Gradle@2
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
-      jdkVersionOption: '11'
+      jdkVersionOption: '1.8'
       options: '-Djetbrains.token=$(jetbrains.token)'
       tasks: 'publishPlugin'
     displayName: 'Publish to JetBrains Plugin Repository'
