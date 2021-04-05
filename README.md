@@ -15,9 +15,9 @@ You can install this theme from JetBrains Marketplaces. Just open **Plugins** wi
 
 ## Color Palette
 
-![Color Palette](./assets/color-palette.png)
+![Color Palette](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/color-palette.png)
 
 ## Licence
 
-[Apache-2.0 Licence](./LICENSE)
+[Apache-2.0 Licence](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/LICENSE)
 
