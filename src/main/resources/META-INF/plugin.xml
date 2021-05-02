@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.vermouthx.xcode-theme</id>
     <name>Xcode Theme</name>
-    <vendor email="zihan.ma@protonmail.com" url="https://vermouthx.com">Zihan Ma</vendor>
+    <vendor email="developer@nszihan.com" url="https://vermouthx.com">Zihan Ma</vendor>
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="201.6668.113"/>
     <extensions defaultExtensionNs="com.intellij">
