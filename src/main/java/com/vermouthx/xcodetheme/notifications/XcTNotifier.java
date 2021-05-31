@@ -15,15 +15,16 @@ public class XcTNotifier {
     private static final String RELEASE_NOTE = "<div>" +
             "<h3>What's New</h3>" +
             "<ul>" +
-            "<li>Fixed Android Studio compatibility</li>" +
+            "<li>Support IntelliJ 2021.2 EAP</li>" +
             "</ul>" +
-            "<p>Please visit the <a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> for more details.</p>" +
-            "<p>Enjoy this theme? Consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.</p>" +
+            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Star Repository</a></p>" +
             "</div>";
 
     @Language("HTML")
-    private final static String WELCOME_MESSAGE = "Thank you for choosing Xcode Theme. " +
-            "Xcode Theme is fully open-source. If this theme is helpful to you, consider <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">STAR</a> this project.";
+    private final static String WELCOME_MESSAGE = "<div>" +
+            "<p>Thank you for choosing <span>Xcode Theme</span>.</p>" +
+            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Star Repository</a></p>" +
+            "</div>";
 
     private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotifier.class);
 

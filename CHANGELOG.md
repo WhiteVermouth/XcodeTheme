@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.2
+
+- Support IntelliJ 2021.2 EAP
+
 ### 1.3.1
 
 - Fixed Android Studio compatibility
