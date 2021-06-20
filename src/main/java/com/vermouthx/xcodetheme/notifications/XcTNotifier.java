@@ -26,10 +26,11 @@ public class XcTNotifier {
             "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Star Repository</a></p>" +
             "</div>";
 
+    private static final String NOTIFICATION_GROUP_ID = "xcode-theme";
+
     private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotifier.class);
 
-    private static final NotificationGroup NOTIFICATION_GROUP =
-            new NotificationGroup("Xcode Theme", NotificationDisplayType.STICKY_BALLOON, true);
+    private static final NotificationGroup NOTIFICATION_GROUP = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID);
 
     public static void notifyReleaseNote(@Nullable Project project) {
         Notification notification = NOTIFICATION_GROUP.createNotification(
