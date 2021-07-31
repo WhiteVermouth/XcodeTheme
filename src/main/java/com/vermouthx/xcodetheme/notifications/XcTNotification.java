@@ -9,26 +9,29 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
-public class XcTNotifier {
+public class XcTNotification {
 
     @Language("HTML")
     private static final String RELEASE_NOTE = "<div>" +
-            "<h3>What's New</h3>" +
+            "<h3>What's New?</h3>" +
+            "<br>" +
             "<ul>" +
-            "<li>Support IntelliJ 2021.2 EAP</li>" +
+            "<li>Fixed API compatibility</li>" +
             "</ul>" +
-            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Star Repository</a></p>" +
+            "<br>" +
+            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Repository</a></p>" +
             "</div>";
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "<div>" +
             "<p>Thank you for choosing <span>Xcode Theme</span>.</p>" +
-            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Star Repository</a></p>" +
+            "<br>" +
+            "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Repository</a></p>" +
             "</div>";
 
-    private static final String NOTIFICATION_GROUP_ID = "xcode-theme";
+    private static final String NOTIFICATION_GROUP_ID = "Xcode Theme";
 
-    private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotifier.class);
+    private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotification.class);
 
     private static final NotificationGroup NOTIFICATION_GROUP = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID);
 
@@ -45,7 +48,7 @@ public class XcTNotifier {
 
     public static void notifyWelcome(@Nullable Project project) {
         Notification notification = NOTIFICATION_GROUP.createNotification(
-                "Xcode Theme installed successfully",
+                "Xcode Theme is installed",
                 WELCOME_MESSAGE,
                 NotificationType.INFORMATION,
                 NotificationListener.URL_OPENING_LISTENER

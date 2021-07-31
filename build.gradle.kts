@@ -62,12 +62,6 @@ tasks {
                   width="600"
                 />
               </p>
-              <h2>Installation</h2>
-              <p>
-                You can install this theme from JetBrains Marketplaces. Just open
-                <strong>Plugins</strong> window and search <code>Xcode Theme</code>, then
-                click <strong>Install</strong>.
-              </p>
               <h2>Color Palette</h2>
               <p>
                 <img
