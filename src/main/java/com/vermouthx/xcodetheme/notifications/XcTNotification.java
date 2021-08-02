@@ -14,7 +14,6 @@ public class XcTNotification {
     @Language("HTML")
     private static final String RELEASE_NOTE = "<div>" +
             "<h3>What's New?</h3>" +
-            "<br>" +
             "<ul>" +
             "<li>Fixed API compatibility</li>" +
             "</ul>" +
