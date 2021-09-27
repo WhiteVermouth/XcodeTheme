@@ -15,7 +15,7 @@ public class XcTNotification {
     private static final String RELEASE_NOTE = "<div>" +
             "<h3>What's New?</h3>" +
             "<ul>" +
-            "<li>Fixed API compatibility</li>" +
+            "<li>Support JetBrains 2021.3 series</li>" +
             "</ul>" +
             "<br>" +
             "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Repository</a></p>" +

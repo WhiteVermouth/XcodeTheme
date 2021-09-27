@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1
+
+- Support JetBrains 2021.3 series
+
 ## 1.4.0
 
 - Fixed API compatibility
