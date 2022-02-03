@@ -16,6 +16,7 @@ public class XcTNotification {
             "<h3>What's New?</h3>" +
             "<ul>" +
             "<li>Support JetBrains 2022 EAP</li>" +
+            "<li>Fix Bookmark Mnemonic colors in Dark theme</li>" +
             "</ul>" +
             "<br>" +
             "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Repository</a></p>" +

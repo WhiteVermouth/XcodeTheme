@@ -3,6 +3,7 @@
 ## 1.5.0
 
 - Support JetBrains 2022 EAP
+- Fix Bookmark Mnemonic colors in Dark theme
 
 ## 1.4.1
 
