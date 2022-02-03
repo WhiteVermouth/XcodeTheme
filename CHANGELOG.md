@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+
+- Support JetBrains 2022 EAP
+
 ## 1.4.1
 
 - Support JetBrains 2021.3 series
