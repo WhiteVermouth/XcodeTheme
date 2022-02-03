@@ -27,6 +27,18 @@
       "pressedBorderColor": "borderColor",
       "pressedBackground": "borderColor"
     },
+    "Bookmark": {
+      "Mnemonic": {
+      }
+    },
+    "BookmarkMnemonicAssigned": {
+      "background": "inactiveSelection",
+      "borderColor": "inactiveSelection"
+    },
+    "BookmarkMnemonicCurrent": {
+      "background": "activeSelection",
+      "borderColor": "activeSelection"
+    },
     "Borders": {
       "color": "borderColor",
       "ContrastBorderColor": "borderColor"
