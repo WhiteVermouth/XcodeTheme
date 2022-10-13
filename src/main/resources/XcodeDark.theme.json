@@ -32,11 +32,11 @@
       }
     },
     "BookmarkMnemonicAssigned": {
-      "background": "inactiveSelection",
+      "buttonBackground": "inactiveSelection",
       "borderColor": "inactiveSelection"
     },
     "BookmarkMnemonicCurrent": {
-      "background": "activeSelection",
+      "buttonBackground": "activeSelection",
       "borderColor": "activeSelection"
     },
     "Borders": {
@@ -121,12 +121,9 @@
     "SidePanel": {
       "background": "secondary"
     },
-    "StatusBar": {
-      "hoverBackground": "secondary"
-    },
     "Table": {
       "hoverBackground": "inactiveSelection",
-      "lightSelectionBackground": "activeSelection"
+      "lightSelectionBackground": "#3c414c"
     },
     "TableHeader": {
       "bottomSeparatorColor": "separatorColor"
@@ -166,6 +163,9 @@
         "actions": {
           "background": "inactiveSelection"
         }
+      },
+      "Details": {
+        "background": "background"
       }
     }
   },
