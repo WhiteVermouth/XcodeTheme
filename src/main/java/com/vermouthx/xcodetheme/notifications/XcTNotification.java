@@ -15,8 +15,7 @@ public class XcTNotification {
     private static final String RELEASE_NOTE = "<div>" +
             "<h3>What's New?</h3>" +
             "<ul>" +
-            "<li>Support JetBrains 2022 EAP</li>" +
-            "<li>Fix Bookmark Mnemonic colors in Dark theme</li>" +
+            "<li>Fix welcome window project color</li>" +
             "</ul>" +
             "<br>" +
             "<p><a href=\"https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/WhiteVermouth/XcodeTheme\">Repository</a></p>" +

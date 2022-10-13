@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.0
+
+- Fix welcome window project color
+
 ## 1.5.0
 
 - Support JetBrains 2022 EAP
