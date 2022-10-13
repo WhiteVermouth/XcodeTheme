@@ -1,6 +1,6 @@
 package com.vermouthx.xcodetheme.activities;
 
-import com.intellij.openapi.components.ServiceManager;
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.startup.StartupActivity;
@@ -14,7 +14,7 @@ public class XcTStartupActivity implements StartupActivity, DumbAware {
     @Override
     public void runActivity(@NotNull Project project) {
         String currentVersion = XcTManager.currentVersion();
-        XcTMetaSetting setting = ServiceManager.getService(XcTMetaSetting.class);
+        XcTMetaSetting setting = ApplicationManager.getApplication().getService(XcTMetaSetting.class);
         if (setting.getVersion() == null || setting.getVersion().isEmpty()) {
             setting.setVersion(currentVersion);
             XcTNotification.notifyWelcome(project);
