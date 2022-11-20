@@ -13,10 +13,10 @@ import javax.swing.*;
 public class XcTNotification {
 
     @Language("HTML")
-    private static final String RELEASE_NOTE = "<div>" + "<h3>What's New?</h3>" + "<ul>" + "<li>Fix welcome window project color</li>" + "</ul>" + "</div>";
+    private static final String RELEASE_NOTE = "<h3>What's New?</h3>" + "<ul>" + "<li>Fix welcome window project color</li>" + "</ul>";
 
     @Language("HTML")
-    private final static String WELCOME_MESSAGE = "<div>" + "<p>Thank you for choosing <span>Xcode Theme</span>.</p>" + "</div>";
+    private final static String WELCOME_MESSAGE = "<p>Thank you for choosing <span>Xcode Theme</span>.</p>";
 
     private static final String NOTIFICATION_GROUP_ID = "Xcode Theme";
     private static final String CHANGELOG_LINK = "https://github.com/WhiteVermouth/XcodeTheme/blob/master/CHANGELOG.md";
