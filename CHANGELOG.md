@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+- Fix notification URL opening
+
 ## 1.6.0
 
 - Fix welcome window project color

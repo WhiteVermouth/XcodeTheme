@@ -13,7 +13,10 @@ import javax.swing.*;
 public class XcTNotification {
 
     @Language("HTML")
-    private static final String RELEASE_NOTE = "<h3>What's New?</h3>" + "<ul>" + "<li>Fix welcome window project color</li>" + "</ul>";
+    private static final String RELEASE_NOTE = "<p>What's New?</p>" +
+            "<ul>" +
+            "<li>Fix notification URL opening</li>" +
+            "</ul>";
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "<p>Thank you for choosing <span>Xcode Theme</span>.</p>";
