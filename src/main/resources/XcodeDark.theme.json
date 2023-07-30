@@ -102,6 +102,15 @@
         "errorBackground": "primary"
       }
     },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "secondary",
+        "hoverBackground": "secondary"
+      },
+      "Notification": {
+        "hoverBackground": "secondary"
+      }
+    },
     "Plugins": {
       "hoverBackground": "#3c414c",
       "lightSelectionBackground": "#3c414c"

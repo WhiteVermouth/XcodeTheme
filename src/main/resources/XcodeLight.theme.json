@@ -105,6 +105,15 @@
     "Menu": {
       "borderColor": "lightBorder"
     },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "hoverBackground": "#C5DFFC",
+        "background": "#C5DFFC"
+      },
+      "Notification": {
+        "hoverBackground": "#C5DFFC"
+      }
+    },
     "Panel": {
       "background": "panel"
     },
