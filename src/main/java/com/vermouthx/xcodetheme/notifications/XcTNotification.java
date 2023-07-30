@@ -15,7 +15,7 @@ public class XcTNotification {
     @Language("HTML")
     private static final String RELEASE_NOTE = "<p>What's New?</p>" +
             "<ul>" +
-            "<li>Fix notification URL opening</li>" +
+            "<li>Fix new notification window colors</li>" +
             "</ul>";
 
     @Language("HTML")
