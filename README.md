@@ -21,3 +21,6 @@ You can install this theme from JetBrains Marketplaces. Just open **Plugins** wi
 
 [Apache-2.0 Licence](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/LICENSE)
 
+## Donation
+
+If you like this theme, you can [buy me a cup of coffee](https://www.buymeacoffee.com/nszihan). Thank you!
