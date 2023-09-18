@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.6.3
+
+- Force switch to correspond editor color scheme when toggle UI to Xcode Theme
+
 ## 1.6.2
 
 - Fix new notification window colors
