@@ -3,7 +3,7 @@
     <name>Xcode Theme</name>
     <vendor email="developer@nszihan.com" url="https://nszihan.com">Zihan Ma</vendor>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="221"/>
+    <idea-version since-build="222"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.vermouthx.xcodetheme.settings.XcTMetaSetting"/>
         <postStartupActivity implementation="com.vermouthx.xcodetheme.activities.XcTStartupActivity"/>
@@ -11,4 +11,8 @@
         <themeProvider id="cb4a23e8-3c5f-4688-9a68-a5fb164d6a90" path="/XcodeLight.theme.json"/>
         <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/XcodeDark.theme.json"/>
     </extensions>
+    <applicationListeners>
+        <listener class="com.vermouthx.xcodetheme.listeners.XcTThemeChangeListener"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
+    </applicationListeners>
 </idea-plugin>
