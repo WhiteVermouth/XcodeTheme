@@ -3,7 +3,7 @@
 Xcode Theme</h1>
 <p align="center">Xcode Light & Dark themes for JetBrains</p>
 <p align="center">
-<img src="https://dev.azure.com/mvriddle/Xcode%20Theme/_apis/build/status/WhiteVermouth.XcodeTheme?branchName=master" alt="Build Status"/>
+<img src="https://dev.azure.com/nszihan/Xcode%20Theme/_apis/build/status%2FWhiteVermouth.XcodeTheme?branchName=master" alt="Build Status"/>
 <img src="https://img.shields.io/jetbrains/plugin/v/com.vermouthx.xcode-theme" alt="Marketplace Release" />
 <img src="https://img.shields.io/jetbrains/plugin/d/com.vermouthx.xcode-theme" alt="Marketplace Downloads" />
 </p>
