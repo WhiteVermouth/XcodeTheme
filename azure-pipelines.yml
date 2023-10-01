@@ -29,24 +29,12 @@ steps:
       gradleWrapperFile: 'gradlew'
       gradleOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
-      jdkVersionOption: '11'
+      jdkVersionOption: '17'
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
       testResultsFiles: '**/TEST-*.xml'
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
-#  - task: Gradle@2
-#    inputs:
-#      workingDirectory: ''
-#      gradleWrapperFile: 'gradlew'
-#      gradleOptions: '-Xmx3072m'
-#      javaHomeOption: 'JDKVersion'
-#      jdkVersionOption: '11'
-#      jdkArchitectureOption: 'x64'
-#      publishJUnitResults: true
-#      testResultsFiles: '**/TEST-*.xml'
-#      tasks: 'runPluginVerifier'
-#    displayName: 'Verify plugin'
   - task: GitHubRelease@0
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
@@ -61,7 +49,7 @@ steps:
   - task: Gradle@2
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
-      jdkVersionOption: '11'
+      jdkVersionOption: '17'
       options: '-Djetbrains.token=$(jetbrains.token)'
       tasks: 'publishPlugin'
     displayName: 'Publish to JetBrains Plugin Repository'
