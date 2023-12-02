@@ -7,11 +7,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 @State(name = "XcTSetting", storages = {@Storage("xcode-theme.xml")})
-public class XcTMetaSetting implements PersistentStateComponent<XcTMetaSetting.XcTMetaState> {
-    static class XcTMetaState {
-        public String version;
-    }
-
+public class XcTMetaSetting implements PersistentStateComponent<XcTMetaState> {
     private XcTMetaState myState = new XcTMetaState();
 
     public void setVersion(String version) {
@@ -23,12 +19,12 @@ public class XcTMetaSetting implements PersistentStateComponent<XcTMetaSetting.X
     }
 
     @Override
-    public @Nullable XcTMetaSetting.XcTMetaState getState() {
+    public @Nullable XcTMetaState getState() {
         return myState;
     }
 
     @Override
-    public void loadState(@NotNull XcTMetaSetting.XcTMetaState state) {
+    public void loadState(@NotNull XcTMetaState state) {
         myState = state;
     }
 
