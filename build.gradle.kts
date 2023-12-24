@@ -23,7 +23,7 @@ repositories {
 
 kotlin {
     jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 
@@ -81,18 +81,8 @@ tasks {
     }
 
     runPluginVerifier {
-        ideVersions.set(
-            properties("pluginVerifierIdeVersions")
-                .split(",")
-                .map(String::trim)
-                .filter(String::isNotEmpty)
-        )
-        failureLevel.set(
-            listOf(
-                RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
-                RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
-            )
-        )
+        ideVersions.set(properties("pluginVerifierIdeVersions").split(",").map(String::trim).filter(String::isNotEmpty))
+        failureLevel.set(listOf(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN))
     }
 
     publishPlugin {
