@@ -131,6 +131,9 @@
       "indeterminateStartColor": "#91C5F2",
       "indeterminateEndColor": "#1E82E6"
     },
+    "RunWidget": {
+      "iconColor": "#6C707E"
+    },
     "StatusBar": {
       "borderColor": "border"
     },
