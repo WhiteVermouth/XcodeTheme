@@ -1,6 +1,11 @@
 # Changelog
 
-# 1.6.3
+## 1.7.0
+
+- Fix RunWidget icon color
+- Fix compatibility issue
+
+## 1.6.3
 
 - Force switch to correspond editor color scheme when toggle UI to Xcode Theme
 
