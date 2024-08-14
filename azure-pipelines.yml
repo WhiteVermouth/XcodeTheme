@@ -24,7 +24,7 @@ steps:
       restoreKeys: gradle
       path: $(GRADLE_USER_HOME)
     displayName: Gradle build cache
-  - task: Gradle@2
+  - task: Gradle@3
     inputs:
       workingDirectory: ''
       gradleWrapperFile: 'gradlew'
@@ -36,7 +36,7 @@ steps:
       testResultsFiles: '**/TEST-*.xml'
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
-  - task: GitHubRelease@0
+  - task: GitHubRelease@1
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       gitHubConnection: 'GitHub Release'
@@ -47,7 +47,7 @@ steps:
       tagSource: 'auto'
       target: '$(Build.SourceVersion)'
     displayName: 'Publish to GitHub Release'
-  - task: Gradle@2
+  - task: Gradle@3
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       jdkVersionOption: '17'
