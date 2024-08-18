@@ -38,3 +38,4 @@ gradle-app.setting
 *.iml
 out
 gen
+.intellijPlatform
