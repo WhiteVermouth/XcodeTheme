@@ -70,7 +70,7 @@ intellijPlatform {
             select {
                 types = listOf(IntelliJPlatformType.IntellijIdeaCommunity, IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = "233"
+                sinceBuild = "241"
                 untilBuild = "242.*"
             }
         }
