@@ -68,10 +68,10 @@ intellijPlatform {
         ides {
             recommended()
             select {
-                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity, IntelliJPlatformType.IntellijIdeaUltimate)
+                types = listOf(IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = "241"
-                untilBuild = "242.*"
+                sinceBuild = "252"
+                untilBuild = "253.*"
             }
         }
         failureLevel = listOf(
