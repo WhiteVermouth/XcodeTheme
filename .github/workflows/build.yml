@@ -26,9 +26,7 @@ jobs:
           distribution: 'temurin'
       
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          gradle-home-cache-cleanup: true
+        uses: gradle/actions/setup-gradle@v4
       
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -75,7 +73,7 @@ jobs:
           distribution: 'temurin'
       
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v4
       
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
