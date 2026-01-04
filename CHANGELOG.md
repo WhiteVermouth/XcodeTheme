@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.8.0
+
+- Add Islands Xcode Dark and Islands Xcode Light themes
+- Update minimum IntelliJ version to 2025.3
+- Upgrade to Java 21
+
 ## 1.7.0
 
 - Fix RunWidget icon color

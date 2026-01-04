@@ -13,7 +13,7 @@ import javax.swing.*;
 public class XcTNotification {
 
     @Language("HTML")
-    private static final String RELEASE_NOTE = "<ul>" + "<li>Fix RunWidget icon color</li>" + "<li>Fix compatibility issue</li>" + "</ul>";
+    private static final String RELEASE_NOTE = "<ul>" + "<li>🏝️ New Islands series themes: Islands Xcode Dark and Islands Xcode Light</li>" + "<li>⬆️ Updated minimum IntelliJ version to 2025.3</li>" + "<li>☕ Upgraded to Java 21</li>" + "</ul>";
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "<p>Thank you for choosing <span>Xcode Theme</span>.</p>";
