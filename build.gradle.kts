@@ -15,6 +15,10 @@ plugins {
 group = properties("pluginGroup")
 version = properties("pluginVersion")
 
+kotlin {
+    jvmToolchain(21)
+}
+
 repositories {
     mavenCentral()
     intellijPlatform {
