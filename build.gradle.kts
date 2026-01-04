@@ -26,7 +26,6 @@ dependencies {
     intellijPlatform {
         create(properties("platformType"), properties("platformVersion"))
         pluginVerifier()
-        instrumentationTools()
     }
 }
 
@@ -70,7 +69,7 @@ intellijPlatform {
             select {
                 types = listOf(IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = "252"
+                sinceBuild = "253"
                 untilBuild = "253.*"
             }
         }
