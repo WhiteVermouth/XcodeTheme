@@ -39,3 +39,5 @@ gradle-app.setting
 out
 gen
 .intellijPlatform
+# GitHub Copilot instructions
+.github/copilot-instructions.md
