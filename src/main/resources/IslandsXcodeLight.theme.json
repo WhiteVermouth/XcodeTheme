@@ -25,7 +25,7 @@
       "caretForeground": "foreground",
       "selectedForeground": "foreground",
       "selectionInactiveForeground": "foreground",
-      "selectionBackground": "#2675BF",
+      "selectionBackground": "#C5DFFC",
       "selectionBackgroundInactive": "#D5D5D5",
       "selectionInactiveBackground": "#D5D5D5",
       "disabledForeground": "disabledForeground",
