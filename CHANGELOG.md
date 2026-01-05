@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+- Fix highlight background color contrast in Islands Xcode Light theme
+
 ## 1.8.0
 
 - Add Islands Xcode Dark and Islands Xcode Light themes
