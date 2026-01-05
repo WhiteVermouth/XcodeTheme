@@ -23,17 +23,19 @@ public class XcTNotification {
     private static final String GITHUB_LINK = "https://github.com/WhiteVermouth/XcodeTheme";
     private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotification.class);
 
-    private static final NotificationGroup NOTIFICATION_GROUP = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID);
+    private static NotificationGroup getNotificationGroup() {
+        return NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID);
+    }
 
     public static void notifyReleaseNote(@Nullable Project project) {
-        Notification notification = NOTIFICATION_GROUP.createNotification("Xcode Theme updated to v" + XcTManager.currentVersion(), RELEASE_NOTE, NotificationType.INFORMATION);
+        Notification notification = getNotificationGroup().createNotification("Xcode Theme updated to v" + XcTManager.currentVersion(), RELEASE_NOTE, NotificationType.INFORMATION);
         addNotificationActions(notification);
         notification.setIcon(icon);
         notification.notify(project);
     }
 
     public static void notifyWelcome(@Nullable Project project) {
-        Notification notification = NOTIFICATION_GROUP.createNotification("Xcode Theme is installed", WELCOME_MESSAGE, NotificationType.INFORMATION);
+        Notification notification = getNotificationGroup().createNotification("Xcode Theme is installed", WELCOME_MESSAGE, NotificationType.INFORMATION);
         addNotificationActions(notification);
         notification.setIcon(icon);
         notification.notify(project);
