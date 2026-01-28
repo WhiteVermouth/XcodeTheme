@@ -110,7 +110,7 @@
       "borderColor": "#ffffff00"
     },
     "MainWindow": {
-      "background": "#E2E6EC"
+      "background": "panel"
     },
     "Notification": {
       "borderColor": "border"

@@ -105,7 +105,7 @@
       "borderColor": "#34333300"
     },
     "MainWindow": {
-      "background": "#3c3b3b"
+      "background": "primary"
     },
     "Notification": {
       "ToolWindow": {
