@@ -13,7 +13,7 @@ import javax.swing.*;
 public class XcTNotification {
 
     @Language("HTML")
-    private static final String RELEASE_NOTE = "<ul>" + "<li>🎨 Fixed highlight background color contrast in Islands Xcode Light theme</li>" + "</ul>";
+    private static final String RELEASE_NOTE = "<ul>" + "<li>🎨 Fixed main window background color inconsistency in Islands Xcode themes</li>" + "</ul>";
 
     @Language("HTML")
     private final static String WELCOME_MESSAGE = "<p>Thank you for choosing <span>Xcode Theme</span>.</p>";

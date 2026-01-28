@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.2
+
+- Fix main window background color inconsistency in Islands Xcode themes
+
 ## 1.8.1
 
 - Fix highlight background color contrast in Islands Xcode Light theme
