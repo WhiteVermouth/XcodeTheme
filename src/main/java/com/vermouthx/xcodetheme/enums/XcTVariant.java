@@ -1,7 +1,10 @@
 package com.vermouthx.xcodetheme.enums;
 
 public enum XcTVariant {
-    LIGHT("Xcode Light"), DARK("Xcode Dark");
+    LIGHT("Xcode Light"),
+    DARK("Xcode Dark"),
+    ISLANDS_LIGHT("Islands Xcode Light"),
+    ISLANDS_DARK("Islands Xcode Dark");
 
     private final String name;
 

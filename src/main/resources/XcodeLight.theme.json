@@ -92,6 +92,10 @@
       "errorForeground": "#C7222D",
       "infoForeground": "infoPanelForeground"
     },
+    "List": {
+      "selectionForeground": "selectionForeground",
+      "selectionInactiveForeground": "foreground"
+    },
     "Link": {
       "activeForeground": "linkForeground",
       "hoverForeground": "linkForeground",
@@ -137,6 +141,10 @@
     "StatusBar": {
       "borderColor": "border"
     },
+    "Table": {
+      "selectionForeground": "selectionForeground",
+      "selectionInactiveForeground": "foreground"
+    },
     "ToolWindow": {
       "Button": {
         "selectedBackground": "#cfcdcd"
@@ -148,7 +156,9 @@
     },
     "Tree": {
       "rowHeight": 20,
-      "background": "#e9e9e9"
+      "background": "#e9e9e9",
+      "selectionForeground": "selectionForeground",
+      "selectionInactiveForeground": "foreground"
     },
     "VersionControl": {
       "Log": {
