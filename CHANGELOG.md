@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.8.3
+
+- Fix selection foreground visibility in List, Table, and Tree components for Xcode Light themes
+- Add Islands theme variants to theme change listener
+
 ## 1.8.2
 
 - Fix main window background color inconsistency in Islands Xcode themes
