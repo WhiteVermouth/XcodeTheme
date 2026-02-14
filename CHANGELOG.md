@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.5
+
+- Fix selection foreground color contrast in Xcode Light and Islands Xcode Light themes
+
 ## 1.8.4
 
 - Add Rust syntax highlighting support for both Xcode Light and Xcode Dark themes
