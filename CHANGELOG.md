@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.8.4
+
+- Add Rust syntax highlighting support for both Xcode Light and Xcode Dark themes
+- Remove deprecated and unresolved UI theme keys to eliminate warnings
+
 ## 1.8.3
 
 - Fix selection foreground visibility in List, Table, and Tree components for Xcode Light themes

@@ -21,9 +21,19 @@ public class XcTThemeChangeListener implements LafManagerListener {
             boolean isXcodeTheme = Arrays.stream(XcTVariant.values())
                     .anyMatch(variant -> Objects.equals(currentUI, variant.getName()));
             if (isXcodeTheme) {
-                editorColorsManager.setGlobalScheme(editorColorsManager.getScheme("_@user_" + currentUI));
+                String editorSchemeName = getEditorSchemeNameForTheme(currentUI);
+                editorColorsManager.setGlobalScheme(editorColorsManager.getScheme(editorSchemeName));
             }
         }
         previousUI = currentUI;
+    }
+
+    private String getEditorSchemeNameForTheme(String themeName) {
+        // Map UI theme names to editor color scheme names
+        return switch (themeName) {
+            case "Xcode Light", "Islands Xcode Light" -> "Xcode Light";
+            case "Xcode Dark", "Islands Xcode Dark" -> "Xcode Dark";
+            default -> themeName;
+        };
     }
 }

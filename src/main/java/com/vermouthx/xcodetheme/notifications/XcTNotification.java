@@ -14,7 +14,8 @@ public class XcTNotification {
 
     @Language("HTML")
     private static final String WHATS_NEW = "<ul>" +
-            "<li>🔧 Fixed selection foreground visibility in List, Table, and Tree components for Xcode Light themes</li>" +
+            "<li>🦀 Added Rust syntax highlighting support for both Xcode Light and Xcode Dark themes</li>" +
+            "<li>🛠️ Removed deprecated and unresolved UI theme keys to eliminate warnings</li>" +
             "</ul>";
 
     @Language("HTML")
