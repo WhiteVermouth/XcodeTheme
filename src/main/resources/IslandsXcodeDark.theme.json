@@ -32,14 +32,6 @@
       "Mnemonic": {
       }
     },
-    "BookmarkMnemonicAssigned": {
-      "buttonBackground": "inactiveSelection",
-      "borderColor": "inactiveSelection"
-    },
-    "BookmarkMnemonicCurrent": {
-      "buttonBackground": "activeSelection",
-      "borderColor": "activeSelection"
-    },
     "Borders": {
       "color": "borderColor",
       "ContrastBorderColor": "borderColor"
@@ -85,27 +77,15 @@
     },
     "EditorTabs": {
       "underlinedTabBackground": "#27282d",
-      "inactiveUnderlinedTabBackground": "#2a2b30",
-      "underlinedBorderColor": "activeSelection",
-      "inactiveUnderlinedTabBorderColor": "#4a4c58",
       "background": "secondary",
       "underlineColor": "activeSelection",
       "underlineHeight": 2
-    },
-    "Island": {
-      "borderColor": "secondary"
     },
     "Link": {
       "activeForeground": "#0c90f8",
       "hoverForeground": "#9a61cb",
       "visitedForeground": "#0c90f8",
       "pressedForeground": "#9a61cb"
-    },
-    "MainToolbar": {
-      "borderColor": "#34333300"
-    },
-    "MainWindow": {
-      "background": "primary"
     },
     "Notification": {
       "ToolWindow": {
@@ -168,9 +148,6 @@
       "Header": {
         "background": "secondary",
         "inactiveBackground": "secondary"
-      },
-      "Stripe": {
-        "borderColor": "#34333300"
       }
     },
     "Tree": {

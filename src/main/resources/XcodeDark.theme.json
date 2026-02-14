@@ -31,14 +31,6 @@
       "Mnemonic": {
       }
     },
-    "BookmarkMnemonicAssigned": {
-      "buttonBackground": "inactiveSelection",
-      "borderColor": "inactiveSelection"
-    },
-    "BookmarkMnemonicCurrent": {
-      "buttonBackground": "activeSelection",
-      "borderColor": "activeSelection"
-    },
     "Borders": {
       "color": "borderColor",
       "ContrastBorderColor": "borderColor"

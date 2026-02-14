@@ -82,18 +82,12 @@
     "EditorTabs": {
       "background": "#ffffff",
       "underlineHeight": 2,
-      "underlinedTabBackground": "#d0e6fe",
-      "inactiveUnderlinedTabBackground": "#e8f2fd",
-      "underlinedBorderColor": "#2675BF",
-      "inactiveUnderlinedTabBorderColor": "#a8c8e8"
+      "underlinedTabBackground": "#d0e6fe"
     },
     "Editor": {
       "background": "#CCCCCC",
       "foreground": "#737373",
       "shortcutForeground": "#4274A6"
-    },
-    "Island": {
-      "borderColor": "#ffffff"
     },
     "Label": {
       "errorForeground": "#C7222D",
@@ -109,12 +103,6 @@
       "pressedForeground": "linkForeground",
       "visitedForeground": "linkForeground",
       "secondaryForeground": "#77A8D9"
-    },
-    "MainToolbar": {
-      "borderColor": "#ffffff00"
-    },
-    "MainWindow": {
-      "background": "panel"
     },
     "Notification": {
       "borderColor": "border"
@@ -162,9 +150,6 @@
       "Header": {
         "background": "#ffffff",
         "inactiveBackground": "#ffffff"
-      },
-      "Stripe": {
-        "borderColor": "#ffffff00"
       }
     },
     "Table": {
@@ -174,8 +159,7 @@
     "Tree": {
       "rowHeight": 20,
       "background": "#e9e9e9",
-      "selectionForeground": "foreground",
-      "selectionInactiveForeground": "foreground"
+      "selectionForeground": "foreground"
     },
     "VersionControl": {
       "Log": {
