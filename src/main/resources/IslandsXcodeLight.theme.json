@@ -9,7 +9,7 @@
     "infoPanelForeground": "#808080",
     "infoInputForeground": "#999999",
     "disabledForeground": "#8C8C8C",
-    "selectionForeground": "#FFFFFF",
+    "selectionForeground": "#000000",
     "linkForeground": "#2470B3",
     "border": "#cbcaca",
     "componentBorder": "#C4C4C4",
