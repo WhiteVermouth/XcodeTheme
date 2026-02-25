@@ -39,3 +39,4 @@ gradle-app.setting
 out
 gen
 .intellijPlatform
+.claude
