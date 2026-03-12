@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.6
+
+- Refine border styles in Islands Xcode Dark and Islands Xcode Light themes
+
 ## 1.8.5
 
 - Fix selection foreground color contrast in Xcode Light and Islands Xcode Light themes
