@@ -9,7 +9,9 @@
     "secondary": "#343333",
     "activeSelection": "#2f55b1",
     "inactiveSelection": "#515b70",
-    "borderColor": "#121212"
+    "borderColor": "#121212",
+    "separatorColor": "#474545",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -20,12 +22,12 @@
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#474545"
+      "separatorColor": "separatorColor"
     },
     "ActionButton": {
-      "hoverBorderColor": "borderColor",
+      "hoverBorderColor": "separatorColor",
       "hoverBackground": "borderColor",
-      "pressedBorderColor": "borderColor",
+      "pressedBorderColor": "activeSelection",
       "pressedBackground": "borderColor"
     },
     "Bookmark": {
@@ -41,8 +43,9 @@
       "startBackground": "secondary",
       "endBackground": "secondary",
       "focusedBorderColor": "#5069c3",
-      "startBorderColor": "#464646",
-      "endBorderColor": "#464646",
+      "startBorderColor": "separatorColor",
+      "endBorderColor": "separatorColor",
+      "disabledBorderColor": "separatorColor",
       "default": {
         "foreground": "#ffffff",
         "startBackground": "activeSelection",
@@ -68,8 +71,9 @@
     },
     "Component": {
       "focusColor": "activeSelection",
+      "borderColor": "inactiveSelection",
       "focusedBorderColor": "activeSelection",
-      "disabledBorderColor": "borderColor"
+      "disabledBorderColor": "inactiveSelection"
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
@@ -88,6 +92,7 @@
       "pressedForeground": "#9a61cb"
     },
     "Notification": {
+      "borderColor": "inactiveSelection",
       "ToolWindow": {
         "informativeBackground": "primary",
         "informativeBorderColor": "#42b827",
@@ -117,15 +122,21 @@
       "endBackground": "#eeed38"
     },
     "SearchEverywhere": {
+      "SearchField": {
+        "background": "secondary"
+      },
       "Tab": {
         "selectedBackground": "inactiveSelection"
       }
+    },
+    "Separator": {
+      "separatorColor": "separatorColor"
     },
     "SidePanel": {
       "background": "secondary"
     },
     "StatusBar": {
-      "borderColor": "#34333300"
+      "borderColor": "transparent"
     },
     "Table": {
       "hoverBackground": "inactiveSelection",
@@ -140,14 +151,28 @@
     "ToggleButton": {
       "onBackground": "#338f1b"
     },
+    "Island": {
+      "borderColor": "borderColor",
+      "arc": "20"
+    },
     "ToolWindow": {
       "background": "secondary",
       "Button": {
-        "selectedBackground": "#131313"
+        "selectedBackground": "#131313",
+        "hoverBackground": "borderColor"
       },
       "Header": {
         "background": "secondary",
         "inactiveBackground": "secondary"
+      },
+      "HeaderTab": {
+        "underlineColor": "activeSelection",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "#27282d",
+        "underlinedTabInactiveBackground": "primary"
+      },
+      "Stripe": {
+        "borderColor": "transparent"
       }
     },
     "Tree": {
@@ -165,15 +190,21 @@
       "SidePanel": {
         "background": "secondary"
       },
+      "separatorColor": "separatorColor",
       "Projects": {
         "background": "inactiveSelection",
+        "selectionBackground": "secondary",
+        "selectionInactiveBackground": "secondary",
         "actions": {
-          "background": "inactiveSelection"
+          "background": "secondary"
         }
       },
       "Details": {
         "background": "background"
       }
+    },
+    "MainToolbar": {
+      "borderColor": "transparent"
     }
   },
   "icons": {
@@ -203,4 +234,3 @@
     }
   }
 }
-
