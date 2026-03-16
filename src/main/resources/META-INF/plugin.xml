@@ -13,8 +13,4 @@
         <themeProvider id="1a2b3c4d-5e6f-7890-abcd-ef1234567890" path="/IslandsXcodeLight.theme.json"/>
         <themeProvider id="2b3c4d5e-6f78-90ab-cdef-012345678901" path="/IslandsXcodeDark.theme.json"/>
     </extensions>
-    <applicationListeners>
-        <listener class="com.vermouthx.xcodetheme.listeners.XcTThemeChangeListener"
-                  topic="com.intellij.ide.ui.LafManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
