@@ -54,7 +54,7 @@
       "focusedBorderColor": "#A9C9F5",
       "disabledBorderColor": "componentBorder",
       "default": {
-        "foreground": "selectionForeground",
+        "foreground": "#ffffff",
         "startBackground": "#528CC7",
         "endBackground": "#4989CC",
         "startBorderColor": "#487EB8",
