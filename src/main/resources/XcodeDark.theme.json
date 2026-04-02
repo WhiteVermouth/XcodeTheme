@@ -8,7 +8,8 @@
     "secondary": "#343333",
     "activeSelection": "#2f55b1",
     "inactiveSelection": "#515b70",
-    "borderColor": "#121212"
+    "borderColor": "#121212",
+    "separatorColor": "#474545"
   },
   "ui": {
     "*": {
@@ -19,7 +20,7 @@
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#474545"
+      "separatorColor": "separatorColor"
     },
     "ActionButton": {
       "hoverBorderColor": "borderColor",
@@ -166,7 +167,7 @@
         }
       },
       "Details": {
-        "background": "background"
+        "background": "primary"
       }
     }
   },

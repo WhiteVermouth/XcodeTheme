@@ -200,7 +200,7 @@
         }
       },
       "Details": {
-        "background": "background"
+        "background": "primary"
       }
     },
     "MainToolbar": {
