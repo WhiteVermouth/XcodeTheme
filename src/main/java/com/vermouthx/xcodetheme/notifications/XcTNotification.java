@@ -13,7 +13,7 @@ import javax.swing.*;
 public class XcTNotification {
 
     @Language("HTML")
-    private static final String WHATS_NEW = "<ul>" + "<li>🐛 Fixed button text contrast in Xcode Light and Islands Xcode Light themes</li>" + "</ul>";
+    private static final String WHATS_NEW = "<ul>" + "<li>🐛 Fixed undefined color references in Xcode Dark and Islands Xcode Dark themes</li>" + "</ul>";
 
     @Language("HTML")
     private static final String RELEASE_NOTE = "<p>🎉 <strong>Welcome to Xcode Theme v" + XcTManager.currentVersion() + "!</strong> Here's what's new:</p>" + WHATS_NEW + "<p>If you enjoy Xcode Theme, click <strong>☕ Donate</strong> below to support development. Your support is appreciated!</p>" + "<p><em>Enjoy the latest improvements!</em> ⌘</p>";

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.8
+
+- Fix undefined color references in Xcode Dark and Islands Xcode Dark themes
+
 ## 1.8.7
 
 - Fix button text contrast in Xcode Light and Islands Xcode Light themes
