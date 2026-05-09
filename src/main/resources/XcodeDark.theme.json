@@ -73,11 +73,11 @@
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
-      "background": "secondary"
+      "background": "primary"
     },
     "EditorTabs": {
       "underlinedTabBackground": "primary",
-      "background": "secondary",
+      "background": "primary",
       "underlineHeight": 2
     },
     "Link": {
@@ -121,7 +121,11 @@
       }
     },
     "SidePanel": {
-      "background": "secondary"
+      "background": "primary"
+    },
+    "StatusBar": {
+      "background": "secondary",
+      "borderColor": "transparent"
     },
     "Table": {
       "hoverBackground": "inactiveSelection",
@@ -137,16 +141,21 @@
       "onBackground": "#338f1b"
     },
     "ToolWindow": {
+      "background": "primary",
       "Button": {
         "selectedBackground": "#131313"
       },
       "Header": {
-        "background": "#3c3b3b",
-        "inactiveBackground": "secondary"
+        "background": "primary",
+        "inactiveBackground": "primary"
+      },
+      "Stripe": {
+        "background": "secondary",
+        "borderColor": "transparent"
       }
     },
     "Tree": {
-      "background": "#27282d"
+      "background": "primary"
     },
     "VersionControl": {
       "Log": {
@@ -169,6 +178,13 @@
       "Details": {
         "background": "primary"
       }
+    },
+    "MainToolbar": {
+      "background": "secondary",
+      "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "secondary"
     }
   },
   "icons": {

@@ -138,20 +138,29 @@
     "RunWidget": {
       "iconColor": "#6C707E"
     },
+    "SidePanel": {
+      "background": "panel"
+    },
     "StatusBar": {
-      "borderColor": "border"
+      "background": "panel",
+      "borderColor": "transparent"
     },
     "Table": {
       "selectionForeground": "foreground",
       "selectionInactiveForeground": "foreground"
     },
     "ToolWindow": {
+      "background": "#ffffff",
       "Button": {
         "selectedBackground": "#cfcdcd"
       },
       "Header": {
-        "background": "#E2E6EC",
-        "inactiveBackground": "#e9e9e9"
+        "background": "#ffffff",
+        "inactiveBackground": "#ffffff"
+      },
+      "Stripe": {
+        "background": "panel",
+        "borderColor": "transparent"
       }
     },
     "Tree": {
@@ -165,6 +174,13 @@
           "currentBranchBackground": "#E1E6ED"
         }
       }
+    },
+    "MainToolbar": {
+      "background": "panel",
+      "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "panel"
     }
   },
   "icons": {

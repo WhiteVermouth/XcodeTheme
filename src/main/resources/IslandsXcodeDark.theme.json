@@ -77,11 +77,11 @@
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
-      "background": "secondary"
+      "background": "primary"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#27282d",
-      "background": "secondary",
+      "background": "primary",
       "underlineColor": "activeSelection",
       "underlineHeight": 2
     },
@@ -133,9 +133,10 @@
       "separatorColor": "separatorColor"
     },
     "SidePanel": {
-      "background": "secondary"
+      "background": "primary"
     },
     "StatusBar": {
+      "background": "secondary",
       "borderColor": "transparent"
     },
     "Table": {
@@ -156,14 +157,14 @@
       "arc": "20"
     },
     "ToolWindow": {
-      "background": "secondary",
+      "background": "primary",
       "Button": {
         "selectedBackground": "#131313",
         "hoverBackground": "borderColor"
       },
       "Header": {
-        "background": "secondary",
-        "inactiveBackground": "secondary"
+        "background": "primary",
+        "inactiveBackground": "primary"
       },
       "HeaderTab": {
         "underlineColor": "activeSelection",
@@ -172,11 +173,12 @@
         "underlinedTabInactiveBackground": "primary"
       },
       "Stripe": {
+        "background": "secondary",
         "borderColor": "transparent"
       }
     },
     "Tree": {
-      "background": "#27282d"
+      "background": "primary"
     },
     "VersionControl": {
       "Log": {
@@ -204,7 +206,11 @@
       }
     },
     "MainToolbar": {
+      "background": "secondary",
       "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "secondary"
     }
   },
   "icons": {
