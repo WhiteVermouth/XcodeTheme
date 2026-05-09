@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.0
+
+- Fix background color mismatches in Settings dialog sidebar, tool window headers, status footers, and around tree-row icons across all theme variants
+- Unify Editor and Tree backgrounds in Light theme variants to render with a white content surface
+
 ## 1.8.8
 
 - Fix undefined color references in Xcode Dark and Islands Xcode Dark themes

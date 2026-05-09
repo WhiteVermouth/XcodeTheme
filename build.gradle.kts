@@ -74,7 +74,7 @@ intellijPlatform {
                 types = listOf(IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
                 sinceBuild = "253"
-                untilBuild = "253.*"
+                untilBuild = "261.*"
             }
         }
         failureLevel = listOf(
