@@ -5,18 +5,22 @@
   "editorScheme": "/XcodeLight.xml",
   "parentTheme": "Islands Light",
   "colors": {
+    "content": "#ffffff",
+    "chrome": "#F2F2F2",
+    "accent": "#C5DFFC",
+    "accentMuted": "#D5D5D5",
+    "border": "#cbcaca",
+    "separator": "#cbcaca",
+    "transparent": "#00000000",
     "foreground": "#000000",
     "infoPanelForeground": "#808080",
     "infoInputForeground": "#999999",
     "disabledForeground": "#8C8C8C",
     "selectionForeground": "#000000",
     "linkForeground": "#2470B3",
-    "border": "#cbcaca",
     "componentBorder": "#C4C4C4",
     "lightBorder": "#d9d9d9",
-    "windowsPopupBorder": "#adadad",
-    "panel": "#F2F2F2",
-    "transparent": "#00000000"
+    "windowsPopupBorder": "#adadad"
   },
   "ui": {
     "*": {
@@ -26,15 +30,15 @@
       "caretForeground": "foreground",
       "selectedForeground": "foreground",
       "selectionInactiveForeground": "foreground",
-      "selectionBackground": "#C5DFFC",
-      "selectionBackgroundInactive": "#D5D5D5",
-      "selectionInactiveBackground": "#D5D5D5",
+      "selectionBackground": "accent",
+      "selectionBackgroundInactive": "accentMuted",
+      "selectionInactiveBackground": "accentMuted",
       "disabledForeground": "disabledForeground",
       "disabledText": "disabledForeground",
       "inactiveForeground": "disabledForeground",
       "modifiedItemForeground": "#005ad9",
       "acceleratorSelectionForeground": "selectionForeground",
-      "separatorColor": "border",
+      "separatorColor": "separator",
       "separatorForeground": "infoInputForeground"
     },
     "ActionButton": {
@@ -64,35 +68,34 @@
       }
     },
     "ComboBox": {
-      "background": "#FFFFFF",
-      "nonEditableBackground": "#FFFFFF",
+      "background": "content",
+      "nonEditableBackground": "content",
       "ArrowButton.background": "#FAFAFA"
     },
     "ComboBoxButton": {
-      "background": "#FFFFFF"
+      "background": "content"
     },
     "CompletionPopup": {
-      "selectionBackground": "#C5DFFC",
+      "selectionBackground": "accent",
       "selectionInactiveBackground": "#E0E0E0"
     },
     "Component": {
       "focusColor": "#A9C9F5",
-      "borderColor": "#C5DFFC",
+      "borderColor": "accent",
       "focusedBorderColor": "#A9C9F5",
-      "disabledBorderColor": "#C5DFFC",
+      "disabledBorderColor": "accent",
       "infoForeground": "infoInputForeground"
     },
     "DefaultTabs": {
-      "background": "panel"
+      "background": "chrome"
     },
     "EditorTabs": {
-      "background": "#ffffff",
+      "background": "content",
       "underlineHeight": 2,
       "underlinedTabBackground": "#d0e6fe"
     },
     "Editor": {
-      "background": "#CCCCCC",
-      "foreground": "#737373",
+      "background": "content",
       "shortcutForeground": "#4274A6"
     },
     "Label": {
@@ -111,30 +114,30 @@
       "secondaryForeground": "#77A8D9"
     },
     "Notification": {
-      "borderColor": "#C5DFFC"
+      "borderColor": "accent"
     },
     "Menu": {
       "borderColor": "lightBorder"
     },
     "NotificationsToolwindow": {
       "newNotification": {
-        "hoverBackground": "#C5DFFC",
-        "background": "#C5DFFC"
+        "hoverBackground": "accent",
+        "background": "accent"
       },
       "Notification": {
-        "hoverBackground": "#C5DFFC"
+        "hoverBackground": "accent"
       }
     },
     "Panel": {
-      "background": "panel"
+      "background": "chrome"
     },
     "PasswordField": {
-      "background": "#FFFFFF"
+      "background": "content"
     },
     "Popup": {
       "Header": {
-        "activeBackground": "#FFFFFF",
-        "inactiveBackground": "#FFFFFF"
+        "activeBackground": "content",
+        "inactiveBackground": "content"
       },
       "separatorColor": "lightBorder",
       "Advertiser.borderColor": "border",
@@ -149,11 +152,15 @@
     "RunWidget": {
       "iconColor": "#6C707E"
     },
+    "SearchMatch": {
+      "startBackground": "#eeed38",
+      "endBackground": "#eeed38"
+    },
     "SidePanel": {
-      "background": "panel"
+      "background": "chrome"
     },
     "StatusBar": {
-      "background": "panel",
+      "background": "chrome",
       "borderColor": "transparent"
     },
     "Separator": {
@@ -164,14 +171,14 @@
       "arc": "20"
     },
     "ToolWindow": {
-      "background": "#ffffff",
+      "background": "content",
       "Button": {
         "selectedBackground": "#cfcdcd",
         "hoverBackground": "#E2E6EC"
       },
       "Header": {
-        "background": "#ffffff",
-        "inactiveBackground": "#ffffff"
+        "background": "content",
+        "inactiveBackground": "content"
       },
       "HeaderTab": {
         "underlineColor": "#4B97D9",
@@ -180,7 +187,7 @@
         "underlinedTabInactiveBackground": "#E9E9E9"
       },
       "Stripe": {
-        "background": "panel",
+        "background": "chrome",
         "borderColor": "transparent"
       }
     },
@@ -188,9 +195,12 @@
       "selectionForeground": "foreground",
       "selectionInactiveForeground": "foreground"
     },
+    "TextField": {
+      "background": "content"
+    },
     "Tree": {
       "rowHeight": 20,
-      "background": "#e9e9e9",
+      "background": "content",
       "selectionForeground": "foreground"
     },
     "VersionControl": {
@@ -202,27 +212,27 @@
     },
     "WelcomeScreen": {
       "SidePanel": {
-        "background": "#ffffff"
+        "background": "content"
       },
       "separatorColor": "lightBorder",
       "Projects": {
         "background": "#E9E9E9",
-        "selectionBackground": "#ffffff",
-        "selectionInactiveBackground": "#ffffff",
+        "selectionBackground": "content",
+        "selectionInactiveBackground": "content",
         "actions": {
-          "background": "#ffffff"
+          "background": "content"
         }
       },
       "Details": {
-        "background": "panel"
+        "background": "chrome"
       }
     },
     "MainToolbar": {
-      "background": "panel",
+      "background": "chrome",
       "borderColor": "transparent"
     },
     "MainWindow": {
-      "background": "panel"
+      "background": "chrome"
     }
   },
   "icons": {
