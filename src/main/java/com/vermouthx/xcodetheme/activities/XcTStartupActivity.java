@@ -18,6 +18,10 @@ public class XcTStartupActivity implements ProjectActivity, DumbAware {
     @Override
     public Object execute(@NotNull Project project, @NotNull Continuation<? super Unit> continuation) {
         String currentVersion = XcTManager.currentVersion();
+        if (currentVersion.isEmpty()) {
+            // Storing an unknown version would make every subsequent startup look like a fresh install.
+            return null;
+        }
         XcTMetaSetting setting = ApplicationManager.getApplication().getService(XcTMetaSetting.class);
         if (setting.getVersion() == null || setting.getVersion().isEmpty()) {
             setting.setVersion(currentVersion);

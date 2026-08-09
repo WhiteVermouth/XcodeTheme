@@ -19,7 +19,7 @@ public class XcTNotification {
     private static final String RELEASE_NOTE = "<p>🎉 <strong>Welcome to Xcode Theme v" + XcTManager.currentVersion() + "!</strong> Here's what's new:</p>" + WHATS_NEW + "<p>If you enjoy Xcode Theme, click <strong>☕ Donate</strong> below to support development. Your support is appreciated!</p>" + "<p><em>Enjoy the latest improvements!</em> ⌘</p>";
 
     @Language("HTML")
-    private static final String WELCOME_MESSAGE = "<p>🎉 <strong>Welcome!</strong> Xcode Theme is now installed and ready to use.</p>" + "<ul>" + "<li>Go to <strong>Settings → Appearance & Behavior → Appearance</strong></li>" + "<li>Select <strong>Xcode Light</strong> or <strong>Xcode Dark</strong> from the Theme dropdown</li>" + "<li>Restart your IDE for the best experience</li>" + "</ul>" + "<p>If you enjoy Xcode Theme, click <strong>☕ Donate</strong> below to support development. Your support is appreciated!</p>" + "<p><em>Happy coding!</em> ⌘</p>";
+    private static final String WELCOME_MESSAGE = "<p>🎉 <strong>Welcome!</strong> Xcode Theme is now installed and ready to use.</p>" + "<ul>" + "<li>Go to <strong>Settings → Appearance &amp; Behavior → Appearance</strong></li>" + "<li>Select <strong>Xcode Light</strong> or <strong>Xcode Dark</strong> from the Theme dropdown</li>" + "<li>Restart your IDE for the best experience</li>" + "</ul>" + "<p>If you enjoy Xcode Theme, click <strong>☕ Donate</strong> below to support development. Your support is appreciated!</p>" + "<p><em>Happy coding!</em> ⌘</p>";
 
     private static final String NOTIFICATION_GROUP_ID = "Xcode Theme";
     private static final String DONATE_LINK = "https://www.buymeacoffee.com/nszihan";
