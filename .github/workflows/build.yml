@@ -32,8 +32,11 @@ jobs:
         run: chmod +x gradlew
       
       - name: Build plugin
-        run: ./gradlew buildPlugin
-      
+        run: ./gradlew build buildPlugin
+
+      - name: Verify plugin
+        run: ./gradlew verifyPlugin
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -59,7 +62,7 @@ jobs:
           path: build/distributions
       
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: build/distributions/*.zip
           generate_release_notes: true
@@ -80,6 +83,6 @@ jobs:
       
       - name: Publish to JetBrains Marketplace
         env:
-          JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
-        run: ./gradlew publishPlugin -Djetbrains.token=$JETBRAINS_TOKEN
+          PUBLISH_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
+        run: ./gradlew publishPlugin
 
