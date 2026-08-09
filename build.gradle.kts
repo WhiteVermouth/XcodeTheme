@@ -15,8 +15,10 @@ plugins {
 group = properties("pluginGroup")
 version = properties("pluginVersion")
 
-kotlin {
-    jvmToolchain(21)
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
 }
 
 repositories {
@@ -58,14 +60,14 @@ intellijPlatform {
         version = properties("pluginVersion")
         description = pluginDescription
         changeNotes = provider {
-            changelog.renderItem(changelog.getLatest(), Changelog.OutputType.HTML)
+            changelog.renderItem(changelog.get(properties("pluginVersion")), Changelog.OutputType.HTML)
         }
         ideaVersion {
             untilBuild = provider { null }
         }
     }
     publishing {
-        token = System.getProperty("jetbrains.token")
+        token = providers.environmentVariable("PUBLISH_TOKEN")
     }
     pluginVerification {
         ides {
