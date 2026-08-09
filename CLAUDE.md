@@ -39,7 +39,7 @@ The plugin is theme-centric: ~6 small Java classes handle startup notifications 
 ## Conventions
 
 - **Naming:** Java classes use `XcT` prefix. Theme resources use explicit paired names (e.g., `XcodeDark.theme.json` / `IslandsXcodeDark.theme.json`).
-- **Theme JSON:** Preserve key ordering and formatting for readable diffs. Use named color aliases (defined at top of each `.theme.json`) where possible.
+- **Theme JSON:** Preserve key ordering and formatting for readable diffs. Use named color aliases (defined at top of each `.theme.json`) where possible. Numeric keys (`arc`, `underlineHeight`, `rowHeight`) must be unquoted numbers — a quoted `"8"` stays a `String` and is silently ignored at runtime.
 - **Commits:** Emoji-prefixed imperative subjects (🐛 fix, 🎨 style, ✨ feature, 🎉 release, 📝 docs, 🧹 cleanup, 🔧 refactor).
 - **Version bumps:** Update `gradle.properties`, `CHANGELOG.md`, and `XcTNotification.java` together.
-- **Publishing:** Token via `jetbrains.token` system property. Never commit secrets.
+- **Publishing:** Token via `PUBLISH_TOKEN` environment variable. Never commit secrets.

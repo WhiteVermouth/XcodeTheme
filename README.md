@@ -13,6 +13,17 @@ Xcode Theme</h1>
 
 You can install this theme from JetBrains Marketplaces. Just open **Plugins** window and search `Xcode Theme`, then click **Install**.
 
+## Variants
+
+Four themes ship with the plugin. Pick one under **Settings → Appearance & Behavior → Appearance → Theme**.
+
+| Theme | Notes |
+| --- | --- |
+| Xcode Light | Classic |
+| Xcode Dark | Classic |
+| Islands Xcode Light | Built on the IDE's Islands look |
+| Islands Xcode Dark | Built on the IDE's Islands look |
+
 ## Color Palette
 
 ![Color Palette](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/color-palette.png)
