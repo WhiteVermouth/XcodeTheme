@@ -168,7 +168,7 @@
     },
     "Island": {
       "borderColor": "border",
-      "arc": "20"
+      "arc": 20
     },
     "ToolWindow": {
       "background": "content",

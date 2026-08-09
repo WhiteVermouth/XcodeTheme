@@ -14,7 +14,7 @@
   },
   "ui": {
     "*": {
-      "arc": "8",
+      "arc": 8,
       "background": "content",
       "selectionBackground": "accent",
       "selectionInactiveBackground": "accentMuted",
